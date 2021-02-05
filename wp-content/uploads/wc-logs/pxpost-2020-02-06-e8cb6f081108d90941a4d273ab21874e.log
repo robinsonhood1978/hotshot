@@ -1,0 +1,326 @@
+02-06-2020 @ 17:12:26 - Array
+(
+    [userID and BillingId] => Array
+        (
+            [userid] => 85
+            [BillingId] => 001572658384-85
+        )
+
+)
+
+02-06-2020 @ 17:12:27 - Array
+(
+    [XML request] => <Txn><BillingId>001572658384-85</BillingId><PostUsername>HotShotBroadband</PostUsername><PostPassword>3Qo75sgT386</PostPassword><Amount>69.90</Amount><InputCurrency>NZD</InputCurrency><CardHolderName></CardHolderName><TxnType>Purchase</TxnType><MerchantReference>Scheduled auto payment for order 16996</MerchantReference></Txn>
+)
+
+02-06-2020 @ 17:12:28 - Array
+(
+    [requestProcess[851]>>>] => Array
+        (
+            [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                (
+                    [data:protected] => Array
+                        (
+                            [cache-control] => private
+                            [content-type] => application/xhtml+xml; charset=utf-8
+                            [expires] => Thu, 06 Feb 2020 04:11:27 GMT
+                            [server] => 
+                            [x-aspnet-version] => 
+                            [x-powered-by] => 
+                            [date] => Thu, 06 Feb 2020 04:12:27 GMT
+                            [content-length] => 2671
+                            [strict-transport-security] => max-age=16070400; includeSubDomains
+                        )
+
+                )
+
+            [body] => <Txn><Transaction success="1" reco="00" responseText="APPROVED" pxTxn="true"><Authorized>1</Authorized><ReCo>00</ReCo><RxDate>20200206041227</RxDate><RxDateLocal>20200206041227</RxDateLocal><LocalTimeZone>UTC</LocalTimeZone><MerchantReference>Scheduled auto payment for order 16996</MerchantReference><CardName>Visa</CardName><Retry>0</Retry><StatusRequired>0</StatusRequired><AuthCode>090358</AuthCode><AmountBalance>0.00</AmountBalance><Amount>69.90</Amount><CurrencyId>554</CurrencyId><InputCurrencyId>554</InputCurrencyId><InputCurrencyName>NZD</InputCurrencyName><CurrencyRate>1.00</CurrencyRate><CurrencyName>NZD</CurrencyName><CardHolderName>BALJINDER SIDHU</CardHolderName><DateSettlement>20200206</DateSettlement><TxnType>Purchase</TxnType><CardNumber>498872........69</CardNumber><TxnMac>63586EAD</TxnMac><DateExpiry>0922</DateExpiry><ProductId></ProductId><AcquirerDate>20200206</AcquirerDate><AcquirerTime>041227</AcquirerTime><AcquirerId>7</AcquirerId><Acquirer>ASB</Acquirer><AcquirerReCo>00</AcquirerReCo><AcquirerResponseText>APPROVED</AcquirerResponseText><TestMode>0</TestMode><CardId>2</CardId><CardHolderResponseText>APPROVED</CardHolderResponseText><CardHolderHelpText>The Transaction was approved</CardHolderHelpText><CardHolderResponseDescription>The Transaction was approved</CardHolderResponseDescription><MerchantResponseText>APPROVED</MerchantResponseText><MerchantHelpText>The Transaction was approved</MerchantHelpText><MerchantResponseDescription>The Transaction was approved</MerchantResponseDescription><UrlFail></UrlFail><UrlSuccess></UrlSuccess><EnablePostResponse>0</EnablePostResponse><PxPayName></PxPayName><PxPayLogoSrc></PxPayLogoSrc><PxPayUserId></PxPayUserId><PxPayXsl></PxPayXsl><PxPayBgColor></PxPayBgColor><PxPayOptions></PxPayOptions><Cvc2ResultCode>NotUsed</Cvc2ResultCode><AcquirerPort>809582-80958201</AcquirerPort><AcquirerTxnRef>826006</AcquirerTxnRef><GroupAccount>2</GroupAccount><DpsTxnRef>0000000b61875f22</DpsTxnRef><AllowRetry>0</AllowRetry><DpsBillingId>0000110356200315</DpsBillingId><PhoneNumber></PhoneNumber><AccountInfo></AccountInfo><BillingId>001572658384-85</BillingId><TransactionId>61875f22</TransactionId><PxHostId>0000000b</PxHostId><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText></Transaction><RuleName></RuleName><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText><ReCo>00</ReCo><ResponseText>APPROVED</ResponseText><HelpText>Transaction Approved</HelpText><Success>1</Success><DpsTxnRef>0000000b61875f22</DpsTxnRef><ICCResult></ICCResult><TxnRef></TxnRef></Txn>
+            [response] => Array
+                (
+                    [code] => 200
+                    [message] => OK
+                )
+
+            [cookies] => Array
+                (
+                )
+
+            [filename] => 
+            [http_response] => WP_HTTP_Requests_Response Object
+                (
+                    [response:protected] => Requests_Response Object
+                        (
+                            [body] => <Txn><Transaction success="1" reco="00" responseText="APPROVED" pxTxn="true"><Authorized>1</Authorized><ReCo>00</ReCo><RxDate>20200206041227</RxDate><RxDateLocal>20200206041227</RxDateLocal><LocalTimeZone>UTC</LocalTimeZone><MerchantReference>Scheduled auto payment for order 16996</MerchantReference><CardName>Visa</CardName><Retry>0</Retry><StatusRequired>0</StatusRequired><AuthCode>090358</AuthCode><AmountBalance>0.00</AmountBalance><Amount>69.90</Amount><CurrencyId>554</CurrencyId><InputCurrencyId>554</InputCurrencyId><InputCurrencyName>NZD</InputCurrencyName><CurrencyRate>1.00</CurrencyRate><CurrencyName>NZD</CurrencyName><CardHolderName>BALJINDER SIDHU</CardHolderName><DateSettlement>20200206</DateSettlement><TxnType>Purchase</TxnType><CardNumber>498872........69</CardNumber><TxnMac>63586EAD</TxnMac><DateExpiry>0922</DateExpiry><ProductId></ProductId><AcquirerDate>20200206</AcquirerDate><AcquirerTime>041227</AcquirerTime><AcquirerId>7</AcquirerId><Acquirer>ASB</Acquirer><AcquirerReCo>00</AcquirerReCo><AcquirerResponseText>APPROVED</AcquirerResponseText><TestMode>0</TestMode><CardId>2</CardId><CardHolderResponseText>APPROVED</CardHolderResponseText><CardHolderHelpText>The Transaction was approved</CardHolderHelpText><CardHolderResponseDescription>The Transaction was approved</CardHolderResponseDescription><MerchantResponseText>APPROVED</MerchantResponseText><MerchantHelpText>The Transaction was approved</MerchantHelpText><MerchantResponseDescription>The Transaction was approved</MerchantResponseDescription><UrlFail></UrlFail><UrlSuccess></UrlSuccess><EnablePostResponse>0</EnablePostResponse><PxPayName></PxPayName><PxPayLogoSrc></PxPayLogoSrc><PxPayUserId></PxPayUserId><PxPayXsl></PxPayXsl><PxPayBgColor></PxPayBgColor><PxPayOptions></PxPayOptions><Cvc2ResultCode>NotUsed</Cvc2ResultCode><AcquirerPort>809582-80958201</AcquirerPort><AcquirerTxnRef>826006</AcquirerTxnRef><GroupAccount>2</GroupAccount><DpsTxnRef>0000000b61875f22</DpsTxnRef><AllowRetry>0</AllowRetry><DpsBillingId>0000110356200315</DpsBillingId><PhoneNumber></PhoneNumber><AccountInfo></AccountInfo><BillingId>001572658384-85</BillingId><TransactionId>61875f22</TransactionId><PxHostId>0000000b</PxHostId><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText></Transaction><RuleName></RuleName><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText><ReCo>00</ReCo><ResponseText>APPROVED</ResponseText><HelpText>Transaction Approved</HelpText><Success>1</Success><DpsTxnRef>0000000b61875f22</DpsTxnRef><ICCResult></ICCResult><TxnRef></TxnRef></Txn>
+                            [raw] => HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: application/xhtml+xml; charset=utf-8
+Expires: Thu, 06 Feb 2020 04:11:27 GMT
+Server: 
+X-ASPNET-VERSION: 
+X-POWERED-BY: 
+Date: Thu, 06 Feb 2020 04:12:27 GMT
+Connection: close
+Content-Length: 2671
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+
+<Txn><Transaction success="1" reco="00" responseText="APPROVED" pxTxn="true"><Authorized>1</Authorized><ReCo>00</ReCo><RxDate>20200206041227</RxDate><RxDateLocal>20200206041227</RxDateLocal><LocalTimeZone>UTC</LocalTimeZone><MerchantReference>Scheduled auto payment for order 16996</MerchantReference><CardName>Visa</CardName><Retry>0</Retry><StatusRequired>0</StatusRequired><AuthCode>090358</AuthCode><AmountBalance>0.00</AmountBalance><Amount>69.90</Amount><CurrencyId>554</CurrencyId><InputCurrencyId>554</InputCurrencyId><InputCurrencyName>NZD</InputCurrencyName><CurrencyRate>1.00</CurrencyRate><CurrencyName>NZD</CurrencyName><CardHolderName>BALJINDER SIDHU</CardHolderName><DateSettlement>20200206</DateSettlement><TxnType>Purchase</TxnType><CardNumber>498872........69</CardNumber><TxnMac>63586EAD</TxnMac><DateExpiry>0922</DateExpiry><ProductId></ProductId><AcquirerDate>20200206</AcquirerDate><AcquirerTime>041227</AcquirerTime><AcquirerId>7</AcquirerId><Acquirer>ASB</Acquirer><AcquirerReCo>00</AcquirerReCo><AcquirerResponseText>APPROVED</AcquirerResponseText><TestMode>0</TestMode><CardId>2</CardId><CardHolderResponseText>APPROVED</CardHolderResponseText><CardHolderHelpText>The Transaction was approved</CardHolderHelpText><CardHolderResponseDescription>The Transaction was approved</CardHolderResponseDescription><MerchantResponseText>APPROVED</MerchantResponseText><MerchantHelpText>The Transaction was approved</MerchantHelpText><MerchantResponseDescription>The Transaction was approved</MerchantResponseDescription><UrlFail></UrlFail><UrlSuccess></UrlSuccess><EnablePostResponse>0</EnablePostResponse><PxPayName></PxPayName><PxPayLogoSrc></PxPayLogoSrc><PxPayUserId></PxPayUserId><PxPayXsl></PxPayXsl><PxPayBgColor></PxPayBgColor><PxPayOptions></PxPayOptions><Cvc2ResultCode>NotUsed</Cvc2ResultCode><AcquirerPort>809582-80958201</AcquirerPort><AcquirerTxnRef>826006</AcquirerTxnRef><GroupAccount>2</GroupAccount><DpsTxnRef>0000000b61875f22</DpsTxnRef><AllowRetry>0</AllowRetry><DpsBillingId>0000110356200315</DpsBillingId><PhoneNumber></PhoneNumber><AccountInfo></AccountInfo><BillingId>001572658384-85</BillingId><TransactionId>61875f22</TransactionId><PxHostId>0000000b</PxHostId><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText></Transaction><RuleName></RuleName><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText><ReCo>00</ReCo><ResponseText>APPROVED</ResponseText><HelpText>Transaction Approved</HelpText><Success>1</Success><DpsTxnRef>0000000b61875f22</DpsTxnRef><ICCResult></ICCResult><TxnRef></TxnRef></Txn>
+                            [headers] => Requests_Response_Headers Object
+                                (
+                                    [data:protected] => Array
+                                        (
+                                            [cache-control] => Array
+                                                (
+                                                    [0] => private
+                                                )
+
+                                            [content-type] => Array
+                                                (
+                                                    [0] => application/xhtml+xml; charset=utf-8
+                                                )
+
+                                            [expires] => Array
+                                                (
+                                                    [0] => Thu, 06 Feb 2020 04:11:27 GMT
+                                                )
+
+                                            [server] => Array
+                                                (
+                                                    [0] => 
+                                                )
+
+                                            [x-aspnet-version] => Array
+                                                (
+                                                    [0] => 
+                                                )
+
+                                            [x-powered-by] => Array
+                                                (
+                                                    [0] => 
+                                                )
+
+                                            [date] => Array
+                                                (
+                                                    [0] => Thu, 06 Feb 2020 04:12:27 GMT
+                                                )
+
+                                            [content-length] => Array
+                                                (
+                                                    [0] => 2671
+                                                )
+
+                                            [strict-transport-security] => Array
+                                                (
+                                                    [0] => max-age=16070400; includeSubDomains
+                                                )
+
+                                        )
+
+                                )
+
+                            [status_code] => 200
+                            [protocol_version] => 1.1
+                            [success] => 1
+                            [redirects] => 0
+                            [url] => https://sec.paymentexpress.com/pxpost.aspx
+                            [history] => Array
+                                (
+                                )
+
+                            [cookies] => Requests_Cookie_Jar Object
+                                (
+                                    [cookies:protected] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [filename:protected] => 
+                    [data] => 
+                    [headers] => 
+                    [status] => 
+                )
+
+        )
+
+)
+
+02-06-2020 @ 17:12:28 - Array
+(
+    [pxpost server url] => https://sec.paymentexpress.com/pxpost.aspx
+)
+
+02-06-2020 @ 17:12:28 - Array
+(
+    [txn request] => <Txn><BillingId>001572658384-85</BillingId><PostUsername>HotShotBroadband</PostUsername><PostPassword>3Qo75sgT386</PostPassword><Amount>69.90</Amount><InputCurrency>NZD</InputCurrency><CardHolderName></CardHolderName><TxnType>Purchase</TxnType><MerchantReference>Scheduled auto payment for order 16996</MerchantReference></Txn>
+)
+
+02-06-2020 @ 17:12:28 - Array
+(
+    [Subscription renewal results] => '<Txn><Transaction success="1" reco="00" responseText="APPROVED" pxTxn="true"><Authorized>1</Authorized><ReCo>00</ReCo><RxDate>20200206041227</RxDate><RxDateLocal>20200206041227</RxDateLocal><LocalTimeZone>UTC</LocalTimeZone><MerchantReference>Scheduled auto payment for order 16996</MerchantReference><CardName>Visa</CardName><Retry>0</Retry><StatusRequired>0</StatusRequired><AuthCode>090358</AuthCode><AmountBalance>0.00</AmountBalance><Amount>69.90</Amount><CurrencyId>554</CurrencyId><InputCurrencyId>554</InputCurrencyId><InputCurrencyName>NZD</InputCurrencyName><CurrencyRate>1.00</CurrencyRate><CurrencyName>NZD</CurrencyName><CardHolderName>BALJINDER SIDHU</CardHolderName><DateSettlement>20200206</DateSettlement><TxnType>Purchase</TxnType><CardNumber>498872........69</CardNumber><TxnMac>63586EAD</TxnMac><DateExpiry>0922</DateExpiry><ProductId></ProductId><AcquirerDate>20200206</AcquirerDate><AcquirerTime>041227</AcquirerTime><AcquirerId>7</AcquirerId><Acquirer>ASB</Acquirer><AcquirerReCo>00</AcquirerReCo><AcquirerResponseText>APPROVED</AcquirerResponseText><TestMode>0</TestMode><CardId>2</CardId><CardHolderResponseText>APPROVED</CardHolderResponseText><CardHolderHelpText>The Transaction was approved</CardHolderHelpText><CardHolderResponseDescription>The Transaction was approved</CardHolderResponseDescription><MerchantResponseText>APPROVED</MerchantResponseText><MerchantHelpText>The Transaction was approved</MerchantHelpText><MerchantResponseDescription>The Transaction was approved</MerchantResponseDescription><UrlFail></UrlFail><UrlSuccess></UrlSuccess><EnablePostResponse>0</EnablePostResponse><PxPayName></PxPayName><PxPayLogoSrc></PxPayLogoSrc><PxPayUserId></PxPayUserId><PxPayXsl></PxPayXsl><PxPayBgColor></PxPayBgColor><PxPayOptions></PxPayOptions><Cvc2ResultCode>NotUsed</Cvc2ResultCode><AcquirerPort>809582-80958201</AcquirerPort><AcquirerTxnRef>826006</AcquirerTxnRef><GroupAccount>2</GroupAccount><DpsTxnRef>0000000b61875f22</DpsTxnRef><AllowRetry>0</AllowRetry><DpsBillingId>0000110356200315</DpsBillingId><PhoneNumber></PhoneNumber><AccountInfo></AccountInfo><BillingId>001572658384-85</BillingId><TransactionId>61875f22</TransactionId><PxHostId>0000000b</PxHostId><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText></Transaction><RuleName></RuleName><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText><ReCo>00</ReCo><ResponseText>APPROVED</ResponseText><HelpText>Transaction Approved</HelpText><Success>1</Success><DpsTxnRef>0000000b61875f22</DpsTxnRef><ICCResult></ICCResult><TxnRef></TxnRef></Txn>'
+)
+
+02-07-2020 @ 09:56:08 - Array
+(
+    [userID and BillingId] => Array
+        (
+            [userid] => 125
+            [BillingId] => 001575873904-125
+        )
+
+)
+
+02-07-2020 @ 09:56:08 - Array
+(
+    [XML request] => <Txn><BillingId>001575873904-125</BillingId><PostUsername>HotShotBroadband</PostUsername><PostPassword>3Qo75sgT386</PostPassword><Amount>65.50</Amount><InputCurrency>NZD</InputCurrency><CardHolderName></CardHolderName><TxnType>Purchase</TxnType><MerchantReference>Scheduled auto payment for order 17044</MerchantReference></Txn>
+)
+
+02-07-2020 @ 09:56:09 - Array
+(
+    [requestProcess[851]>>>] => Array
+        (
+            [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                (
+                    [data:protected] => Array
+                        (
+                            [cache-control] => private
+                            [content-type] => application/xhtml+xml; charset=utf-8
+                            [expires] => Thu, 06 Feb 2020 20:55:08 GMT
+                            [server] => 
+                            [x-aspnet-version] => 
+                            [x-powered-by] => 
+                            [date] => Thu, 06 Feb 2020 20:56:08 GMT
+                            [content-length] => 2668
+                            [strict-transport-security] => max-age=16070400; includeSubDomains
+                        )
+
+                )
+
+            [body] => <Txn><Transaction success="1" reco="00" responseText="APPROVED" pxTxn="true"><Authorized>1</Authorized><ReCo>00</ReCo><RxDate>20200206205608</RxDate><RxDateLocal>20200206205608</RxDateLocal><LocalTimeZone>UTC</LocalTimeZone><MerchantReference>Scheduled auto payment for order 17044</MerchantReference><CardName>Visa</CardName><Retry>0</Retry><StatusRequired>0</StatusRequired><AuthCode>905095</AuthCode><AmountBalance>0.00</AmountBalance><Amount>65.50</Amount><CurrencyId>554</CurrencyId><InputCurrencyId>554</InputCurrencyId><InputCurrencyName>NZD</InputCurrencyName><CurrencyRate>1.00</CurrencyRate><CurrencyName>NZD</CurrencyName><CardHolderName>M M G E ALY</CardHolderName><DateSettlement>20200207</DateSettlement><TxnType>Purchase</TxnType><CardNumber>483561........56</CardNumber><TxnMac>4B59D0D1</TxnMac><DateExpiry>0822</DateExpiry><ProductId></ProductId><AcquirerDate>20200206</AcquirerDate><AcquirerTime>205608</AcquirerTime><AcquirerId>7</AcquirerId><Acquirer>ASB</Acquirer><AcquirerReCo>00</AcquirerReCo><AcquirerResponseText>APPROVED</AcquirerResponseText><TestMode>0</TestMode><CardId>2</CardId><CardHolderResponseText>APPROVED</CardHolderResponseText><CardHolderHelpText>The Transaction was approved</CardHolderHelpText><CardHolderResponseDescription>The Transaction was approved</CardHolderResponseDescription><MerchantResponseText>APPROVED</MerchantResponseText><MerchantHelpText>The Transaction was approved</MerchantHelpText><MerchantResponseDescription>The Transaction was approved</MerchantResponseDescription><UrlFail></UrlFail><UrlSuccess></UrlSuccess><EnablePostResponse>0</EnablePostResponse><PxPayName></PxPayName><PxPayLogoSrc></PxPayLogoSrc><PxPayUserId></PxPayUserId><PxPayXsl></PxPayXsl><PxPayBgColor></PxPayBgColor><PxPayOptions></PxPayOptions><Cvc2ResultCode>NotUsed</Cvc2ResultCode><AcquirerPort>809582-80958201</AcquirerPort><AcquirerTxnRef>845763</AcquirerTxnRef><GroupAccount>2</GroupAccount><DpsTxnRef>0000000b619c8fd1</DpsTxnRef><AllowRetry>0</AllowRetry><DpsBillingId>0000110382822865</DpsBillingId><PhoneNumber></PhoneNumber><AccountInfo></AccountInfo><BillingId>001575873904-125</BillingId><TransactionId>619c8fd1</TransactionId><PxHostId>0000000b</PxHostId><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText></Transaction><RuleName></RuleName><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText><ReCo>00</ReCo><ResponseText>APPROVED</ResponseText><HelpText>Transaction Approved</HelpText><Success>1</Success><DpsTxnRef>0000000b619c8fd1</DpsTxnRef><ICCResult></ICCResult><TxnRef></TxnRef></Txn>
+            [response] => Array
+                (
+                    [code] => 200
+                    [message] => OK
+                )
+
+            [cookies] => Array
+                (
+                )
+
+            [filename] => 
+            [http_response] => WP_HTTP_Requests_Response Object
+                (
+                    [response:protected] => Requests_Response Object
+                        (
+                            [body] => <Txn><Transaction success="1" reco="00" responseText="APPROVED" pxTxn="true"><Authorized>1</Authorized><ReCo>00</ReCo><RxDate>20200206205608</RxDate><RxDateLocal>20200206205608</RxDateLocal><LocalTimeZone>UTC</LocalTimeZone><MerchantReference>Scheduled auto payment for order 17044</MerchantReference><CardName>Visa</CardName><Retry>0</Retry><StatusRequired>0</StatusRequired><AuthCode>905095</AuthCode><AmountBalance>0.00</AmountBalance><Amount>65.50</Amount><CurrencyId>554</CurrencyId><InputCurrencyId>554</InputCurrencyId><InputCurrencyName>NZD</InputCurrencyName><CurrencyRate>1.00</CurrencyRate><CurrencyName>NZD</CurrencyName><CardHolderName>M M G E ALY</CardHolderName><DateSettlement>20200207</DateSettlement><TxnType>Purchase</TxnType><CardNumber>483561........56</CardNumber><TxnMac>4B59D0D1</TxnMac><DateExpiry>0822</DateExpiry><ProductId></ProductId><AcquirerDate>20200206</AcquirerDate><AcquirerTime>205608</AcquirerTime><AcquirerId>7</AcquirerId><Acquirer>ASB</Acquirer><AcquirerReCo>00</AcquirerReCo><AcquirerResponseText>APPROVED</AcquirerResponseText><TestMode>0</TestMode><CardId>2</CardId><CardHolderResponseText>APPROVED</CardHolderResponseText><CardHolderHelpText>The Transaction was approved</CardHolderHelpText><CardHolderResponseDescription>The Transaction was approved</CardHolderResponseDescription><MerchantResponseText>APPROVED</MerchantResponseText><MerchantHelpText>The Transaction was approved</MerchantHelpText><MerchantResponseDescription>The Transaction was approved</MerchantResponseDescription><UrlFail></UrlFail><UrlSuccess></UrlSuccess><EnablePostResponse>0</EnablePostResponse><PxPayName></PxPayName><PxPayLogoSrc></PxPayLogoSrc><PxPayUserId></PxPayUserId><PxPayXsl></PxPayXsl><PxPayBgColor></PxPayBgColor><PxPayOptions></PxPayOptions><Cvc2ResultCode>NotUsed</Cvc2ResultCode><AcquirerPort>809582-80958201</AcquirerPort><AcquirerTxnRef>845763</AcquirerTxnRef><GroupAccount>2</GroupAccount><DpsTxnRef>0000000b619c8fd1</DpsTxnRef><AllowRetry>0</AllowRetry><DpsBillingId>0000110382822865</DpsBillingId><PhoneNumber></PhoneNumber><AccountInfo></AccountInfo><BillingId>001575873904-125</BillingId><TransactionId>619c8fd1</TransactionId><PxHostId>0000000b</PxHostId><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText></Transaction><RuleName></RuleName><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText><ReCo>00</ReCo><ResponseText>APPROVED</ResponseText><HelpText>Transaction Approved</HelpText><Success>1</Success><DpsTxnRef>0000000b619c8fd1</DpsTxnRef><ICCResult></ICCResult><TxnRef></TxnRef></Txn>
+                            [raw] => HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: application/xhtml+xml; charset=utf-8
+Expires: Thu, 06 Feb 2020 20:55:08 GMT
+Server: 
+X-ASPNET-VERSION: 
+X-POWERED-BY: 
+Date: Thu, 06 Feb 2020 20:56:08 GMT
+Connection: close
+Content-Length: 2668
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+
+<Txn><Transaction success="1" reco="00" responseText="APPROVED" pxTxn="true"><Authorized>1</Authorized><ReCo>00</ReCo><RxDate>20200206205608</RxDate><RxDateLocal>20200206205608</RxDateLocal><LocalTimeZone>UTC</LocalTimeZone><MerchantReference>Scheduled auto payment for order 17044</MerchantReference><CardName>Visa</CardName><Retry>0</Retry><StatusRequired>0</StatusRequired><AuthCode>905095</AuthCode><AmountBalance>0.00</AmountBalance><Amount>65.50</Amount><CurrencyId>554</CurrencyId><InputCurrencyId>554</InputCurrencyId><InputCurrencyName>NZD</InputCurrencyName><CurrencyRate>1.00</CurrencyRate><CurrencyName>NZD</CurrencyName><CardHolderName>M M G E ALY</CardHolderName><DateSettlement>20200207</DateSettlement><TxnType>Purchase</TxnType><CardNumber>483561........56</CardNumber><TxnMac>4B59D0D1</TxnMac><DateExpiry>0822</DateExpiry><ProductId></ProductId><AcquirerDate>20200206</AcquirerDate><AcquirerTime>205608</AcquirerTime><AcquirerId>7</AcquirerId><Acquirer>ASB</Acquirer><AcquirerReCo>00</AcquirerReCo><AcquirerResponseText>APPROVED</AcquirerResponseText><TestMode>0</TestMode><CardId>2</CardId><CardHolderResponseText>APPROVED</CardHolderResponseText><CardHolderHelpText>The Transaction was approved</CardHolderHelpText><CardHolderResponseDescription>The Transaction was approved</CardHolderResponseDescription><MerchantResponseText>APPROVED</MerchantResponseText><MerchantHelpText>The Transaction was approved</MerchantHelpText><MerchantResponseDescription>The Transaction was approved</MerchantResponseDescription><UrlFail></UrlFail><UrlSuccess></UrlSuccess><EnablePostResponse>0</EnablePostResponse><PxPayName></PxPayName><PxPayLogoSrc></PxPayLogoSrc><PxPayUserId></PxPayUserId><PxPayXsl></PxPayXsl><PxPayBgColor></PxPayBgColor><PxPayOptions></PxPayOptions><Cvc2ResultCode>NotUsed</Cvc2ResultCode><AcquirerPort>809582-80958201</AcquirerPort><AcquirerTxnRef>845763</AcquirerTxnRef><GroupAccount>2</GroupAccount><DpsTxnRef>0000000b619c8fd1</DpsTxnRef><AllowRetry>0</AllowRetry><DpsBillingId>0000110382822865</DpsBillingId><PhoneNumber></PhoneNumber><AccountInfo></AccountInfo><BillingId>001575873904-125</BillingId><TransactionId>619c8fd1</TransactionId><PxHostId>0000000b</PxHostId><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText></Transaction><RuleName></RuleName><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText><ReCo>00</ReCo><ResponseText>APPROVED</ResponseText><HelpText>Transaction Approved</HelpText><Success>1</Success><DpsTxnRef>0000000b619c8fd1</DpsTxnRef><ICCResult></ICCResult><TxnRef></TxnRef></Txn>
+                            [headers] => Requests_Response_Headers Object
+                                (
+                                    [data:protected] => Array
+                                        (
+                                            [cache-control] => Array
+                                                (
+                                                    [0] => private
+                                                )
+
+                                            [content-type] => Array
+                                                (
+                                                    [0] => application/xhtml+xml; charset=utf-8
+                                                )
+
+                                            [expires] => Array
+                                                (
+                                                    [0] => Thu, 06 Feb 2020 20:55:08 GMT
+                                                )
+
+                                            [server] => Array
+                                                (
+                                                    [0] => 
+                                                )
+
+                                            [x-aspnet-version] => Array
+                                                (
+                                                    [0] => 
+                                                )
+
+                                            [x-powered-by] => Array
+                                                (
+                                                    [0] => 
+                                                )
+
+                                            [date] => Array
+                                                (
+                                                    [0] => Thu, 06 Feb 2020 20:56:08 GMT
+                                                )
+
+                                            [content-length] => Array
+                                                (
+                                                    [0] => 2668
+                                                )
+
+                                            [strict-transport-security] => Array
+                                                (
+                                                    [0] => max-age=16070400; includeSubDomains
+                                                )
+
+                                        )
+
+                                )
+
+                            [status_code] => 200
+                            [protocol_version] => 1.1
+                            [success] => 1
+                            [redirects] => 0
+                            [url] => https://sec.paymentexpress.com/pxpost.aspx
+                            [history] => Array
+                                (
+                                )
+
+                            [cookies] => Requests_Cookie_Jar Object
+                                (
+                                    [cookies:protected] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [filename:protected] => 
+                    [data] => 
+                    [headers] => 
+                    [status] => 
+                )
+
+        )
+
+)
+
+02-07-2020 @ 09:56:09 - Array
+(
+    [pxpost server url] => https://sec.paymentexpress.com/pxpost.aspx
+)
+
+02-07-2020 @ 09:56:09 - Array
+(
+    [txn request] => <Txn><BillingId>001575873904-125</BillingId><PostUsername>HotShotBroadband</PostUsername><PostPassword>3Qo75sgT386</PostPassword><Amount>65.50</Amount><InputCurrency>NZD</InputCurrency><CardHolderName></CardHolderName><TxnType>Purchase</TxnType><MerchantReference>Scheduled auto payment for order 17044</MerchantReference></Txn>
+)
+
+02-07-2020 @ 09:56:09 - Array
+(
+    [Subscription renewal results] => '<Txn><Transaction success="1" reco="00" responseText="APPROVED" pxTxn="true"><Authorized>1</Authorized><ReCo>00</ReCo><RxDate>20200206205608</RxDate><RxDateLocal>20200206205608</RxDateLocal><LocalTimeZone>UTC</LocalTimeZone><MerchantReference>Scheduled auto payment for order 17044</MerchantReference><CardName>Visa</CardName><Retry>0</Retry><StatusRequired>0</StatusRequired><AuthCode>905095</AuthCode><AmountBalance>0.00</AmountBalance><Amount>65.50</Amount><CurrencyId>554</CurrencyId><InputCurrencyId>554</InputCurrencyId><InputCurrencyName>NZD</InputCurrencyName><CurrencyRate>1.00</CurrencyRate><CurrencyName>NZD</CurrencyName><CardHolderName>M M G E ALY</CardHolderName><DateSettlement>20200207</DateSettlement><TxnType>Purchase</TxnType><CardNumber>483561........56</CardNumber><TxnMac>4B59D0D1</TxnMac><DateExpiry>0822</DateExpiry><ProductId></ProductId><AcquirerDate>20200206</AcquirerDate><AcquirerTime>205608</AcquirerTime><AcquirerId>7</AcquirerId><Acquirer>ASB</Acquirer><AcquirerReCo>00</AcquirerReCo><AcquirerResponseText>APPROVED</AcquirerResponseText><TestMode>0</TestMode><CardId>2</CardId><CardHolderResponseText>APPROVED</CardHolderResponseText><CardHolderHelpText>The Transaction was approved</CardHolderHelpText><CardHolderResponseDescription>The Transaction was approved</CardHolderResponseDescription><MerchantResponseText>APPROVED</MerchantResponseText><MerchantHelpText>The Transaction was approved</MerchantHelpText><MerchantResponseDescription>The Transaction was approved</MerchantResponseDescription><UrlFail></UrlFail><UrlSuccess></UrlSuccess><EnablePostResponse>0</EnablePostResponse><PxPayName></PxPayName><PxPayLogoSrc></PxPayLogoSrc><PxPayUserId></PxPayUserId><PxPayXsl></PxPayXsl><PxPayBgColor></PxPayBgColor><PxPayOptions></PxPayOptions><Cvc2ResultCode>NotUsed</Cvc2ResultCode><AcquirerPort>809582-80958201</AcquirerPort><AcquirerTxnRef>845763</AcquirerTxnRef><GroupAccount>2</GroupAccount><DpsTxnRef>0000000b619c8fd1</DpsTxnRef><AllowRetry>0</AllowRetry><DpsBillingId>0000110382822865</DpsBillingId><PhoneNumber></PhoneNumber><AccountInfo></AccountInfo><BillingId>001575873904-125</BillingId><TransactionId>619c8fd1</TransactionId><PxHostId>0000000b</PxHostId><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText></Transaction><RuleName></RuleName><RmReason></RmReason><RmReasonId>0000000000000000</RmReasonId><RiskScore>-1</RiskScore><RiskScoreText></RiskScoreText><ReCo>00</ReCo><ResponseText>APPROVED</ResponseText><HelpText>Transaction Approved</HelpText><Success>1</Success><DpsTxnRef>0000000b619c8fd1</DpsTxnRef><ICCResult></ICCResult><TxnRef></TxnRef></Txn>'
+)
+

@@ -1,0 +1,879 @@
+05-12-2020 @ 11:41:58 - Array
+(
+    [return url] => https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+)
+
+05-12-2020 @ 11:41:58 - ========= initiating transaction request
+05-12-2020 @ 11:41:58 - test or live account, invoice ref: hotshot.co.nz - Order # 27611, transaction: ID5eb9e2c6ab102-27611, amount: 99.40, billingID: 001589240518-386
+05-12-2020 @ 11:41:58 - success URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+05-12-2020 @ 11:41:58 - failure URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+05-12-2020 @ 11:41:58 - Array
+(
+    [access_userid] => HotShotBroadbandPx
+    [access_key] => d6c058c87cc26ea56a481537c248cdea9a9ce41293c144dd666c18abd6ab2917
+    [access_url] => https://sec.windcave.com/pxaccess/pxpay.aspx
+)
+
+05-12-2020 @ 11:41:58 - https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BA6223DC8EC35CB2BC05DC12E743AD9CB51E8B5D9D5DA7DD02402EAF16CC9BF34
+05-12-2020 @ 11:41:58 - Array
+(
+    [dps url] => https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BA6223DC8EC35CB2BC05DC12E743AD9CB51E8B5D9D5DA7DD02402EAF16CC9BF34
+    [ajax img_loader] => https://www.hotshot.nz/wp-content/plugins/woocommerce-gateway-payment-express-hybrid/images/ajax-loader.gif
+)
+
+05-12-2020 @ 11:43:50 - Array
+(
+    [return url] => https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+)
+
+05-12-2020 @ 11:43:50 - ========= initiating transaction request
+05-12-2020 @ 11:43:50 - test or live account, invoice ref: hotshot.co.nz - Order # 27615, transaction: ID5eb9e33625769-27615, amount: 99.40, billingID: 001589240630-386
+05-12-2020 @ 11:43:50 - success URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+05-12-2020 @ 11:43:50 - failure URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+05-12-2020 @ 11:43:50 - Array
+(
+    [access_userid] => HotShotBroadbandPx
+    [access_key] => d6c058c87cc26ea56a481537c248cdea9a9ce41293c144dd666c18abd6ab2917
+    [access_url] => https://sec.windcave.com/pxaccess/pxpay.aspx
+)
+
+05-12-2020 @ 11:43:50 - https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BA6223DC8EC35CB2BA0FDBFA9CBD0409D66A66A5FAEB47A2412A52D0C16882586
+05-12-2020 @ 11:43:50 - Array
+(
+    [dps url] => https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BA6223DC8EC35CB2BA0FDBFA9CBD0409D66A66A5FAEB47A2412A52D0C16882586
+    [ajax img_loader] => https://www.hotshot.nz/wp-content/plugins/woocommerce-gateway-payment-express-hybrid/images/ajax-loader.gif
+)
+
+05-12-2020 @ 11:48:24 - ====== callback function has been accessed
+05-12-2020 @ 11:48:24 - Array
+(
+    [enc_hex] => 00001101156628030bc1076f7b9d3c53
+)
+
+05-12-2020 @ 11:48:24 - Array
+(
+    [resultReq->result] => 00001101156628030bc1076f7b9d3c53
+    [enc_hex] => 00001101156628030bc1076f7b9d3c53
+)
+
+05-12-2020 @ 11:48:24 - ========= requesting transaction result
+05-12-2020 @ 11:48:24 - Array
+(
+    [response] => DpsPxPayResultResponse Object
+        (
+            [isValid] => 1
+            [success] => 1
+            [amount] => 99.4
+            [authCode] => 103224
+            [cardHoldersName] => VISA DEBIT CARDHOLDER
+            [cardName] => Visa
+            [cardNumber] => 483741......2198
+            [cardExpiryMonth] => 06
+            [cardExpiryYear] => 22
+            [txnRef] => 0000000b6db67dbf
+            [statusText] => APPROVED
+            [recurringID] => 0000110427839868
+            [currencySettlement] => NZD
+            [currencyInput] => NZD
+            [option1] => Order number : 27611
+            [option2] => Sherly Kahu
+            [option3] => Kahusherly@yahoo.com
+            [txnType] => Purchase
+            [invoiceReference] => hotshot.co.nz - Order # 27611
+            [clientIP] => 49.224.119.132
+            [transactionNumber] => ID5eb9e2c6ab102-
+            [emailAddress] => Kahusherly@yahoo.com
+            [billingID] => 001589240518-386
+            [txnMac] => 2601D67F
+            [cardNumber2] => 
+            [cvc2ResultCode] => M
+        )
+
+    [orderId] => Array
+        (
+            [0] => Order number 
+            [1] =>  27611
+        )
+
+    [order] => WC_Order Object
+        (
+            [status_transition:protected] => 
+            [data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => pending
+                    [currency] => NZD
+                    [version] => 3.6.4
+                    [prices_include_tax] => 
+                    [date_created] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-05-12 11:41:47.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [date_modified] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-05-12 11:41:47.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0.00
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 99.40
+                    [total_tax] => 0
+                    [customer_id] => 386
+                    [order_key] => wc_order_m4fIs4iKiLLuX
+                    [billing] => Array
+                        (
+                            [first_name] => Sherly
+                            [last_name] => Kahu
+                            [company] => Home
+                            [address_1] => 31 Royal Park Drive
+                            [address_2] => Parklands
+                            [city] => Christchurch
+                            [state] => 
+                            [postcode] => 8083
+                            [country] => NZ
+                            [email] => Kahusherly@yahoo.com
+                            [phone] => 0221752470
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => Sherly
+                            [last_name] => Kahu
+                            [company] => Home
+                            [address_1] => 31 Royal Park Drive
+                            [address_2] => Parklands
+                            [city] => Christchurch
+                            [state] => 
+                            [postcode] => 8083
+                            [country] => NZ
+                        )
+
+                    [payment_method] => payment_express_hybrid
+                    [payment_method_title] => Payment Express
+                    [transaction_id] => 
+                    [customer_ip_address] => 49.224.119.132
+                    [customer_user_agent] => Mozilla/5.0 (Linux; Android 8.0.0; ATU-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36
+                    [created_via] => checkout
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => d6416de8be757ba5248c5e3e4c851089
+                )
+
+            [items:protected] => Array
+                (
+                )
+
+            [items_to_delete:protected] => Array
+                (
+                )
+
+            [cache_group:protected] => orders
+            [data_store_name:protected] => order
+            [object_type:protected] => order
+            [id:protected] => 27611
+            [changes:protected] => Array
+                (
+                )
+
+            [object_read:protected] => 1
+            [extra_data:protected] => Array
+                (
+                )
+
+            [default_data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => 
+                    [currency] => 
+                    [version] => 
+                    [prices_include_tax] => 
+                    [date_created] => 
+                    [date_modified] => 
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [customer_id] => 0
+                    [order_key] => 
+                    [billing] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                            [email] => 
+                            [phone] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => 
+                    [payment_method_title] => 
+                    [transaction_id] => 
+                    [customer_ip_address] => 
+                    [customer_user_agent] => 
+                    [created_via] => 
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 
+                )
+
+            [data_store:protected] => WC_Data_Store Object
+                (
+                    [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
+                        (
+                            [internal_meta_keys:protected] => Array
+                                (
+                                    [0] => _parent_id
+                                    [1] => _status
+                                    [2] => _currency
+                                    [3] => _version
+                                    [4] => _prices_include_tax
+                                    [5] => _date_created
+                                    [6] => _date_modified
+                                    [7] => _discount_total
+                                    [8] => _discount_tax
+                                    [9] => _shipping_total
+                                    [10] => _shipping_tax
+                                    [11] => _cart_tax
+                                    [12] => _total
+                                    [13] => _total_tax
+                                    [14] => _customer_id
+                                    [15] => _order_key
+                                    [16] => _billing
+                                    [17] => _shipping
+                                    [18] => _payment_method
+                                    [19] => _payment_method_title
+                                    [20] => _transaction_id
+                                    [21] => _customer_ip_address
+                                    [22] => _customer_user_agent
+                                    [23] => _created_via
+                                    [24] => _customer_note
+                                    [25] => _date_completed
+                                    [26] => _date_paid
+                                    [27] => _cart_hash
+                                    [28] => _customer_user
+                                    [29] => _order_key
+                                    [30] => _order_currency
+                                    [31] => _billing_first_name
+                                    [32] => _billing_last_name
+                                    [33] => _billing_company
+                                    [34] => _billing_address_1
+                                    [35] => _billing_address_2
+                                    [36] => _billing_city
+                                    [37] => _billing_state
+                                    [38] => _billing_postcode
+                                    [39] => _billing_country
+                                    [40] => _billing_email
+                                    [41] => _billing_phone
+                                    [42] => _shipping_first_name
+                                    [43] => _shipping_last_name
+                                    [44] => _shipping_company
+                                    [45] => _shipping_address_1
+                                    [46] => _shipping_address_2
+                                    [47] => _shipping_city
+                                    [48] => _shipping_state
+                                    [49] => _shipping_postcode
+                                    [50] => _shipping_country
+                                    [51] => _completed_date
+                                    [52] => _paid_date
+                                    [53] => _edit_lock
+                                    [54] => _edit_last
+                                    [55] => _cart_discount
+                                    [56] => _cart_discount_tax
+                                    [57] => _order_shipping
+                                    [58] => _order_shipping_tax
+                                    [59] => _order_tax
+                                    [60] => _order_total
+                                    [61] => _payment_method
+                                    [62] => _payment_method_title
+                                    [63] => _transaction_id
+                                    [64] => _customer_ip_address
+                                    [65] => _customer_user_agent
+                                    [66] => _created_via
+                                    [67] => _order_version
+                                    [68] => _prices_include_tax
+                                    [69] => _date_completed
+                                    [70] => _date_paid
+                                    [71] => _payment_tokens
+                                    [72] => _billing_address_index
+                                    [73] => _shipping_address_index
+                                    [74] => _recorded_sales
+                                    [75] => _recorded_coupon_usage_counts
+                                    [76] => _download_permissions_granted
+                                    [77] => _order_stock_reduced
+                                )
+
+                            [meta_type:protected] => post
+                            [object_id_field_for_meta:protected] => 
+                            [must_exist_meta_keys:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [stores:WC_Data_Store:private] => Array
+                        (
+                            [coupon] => WC_Coupon_Data_Store_CPT
+                            [customer] => WC_Customer_Data_Store
+                            [customer-download] => WC_Customer_Download_Data_Store
+                            [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                            [customer-session] => WC_Customer_Data_Store_Session
+                            [order] => WC_Order_Data_Store_CPT
+                            [order-refund] => WC_Order_Refund_Data_Store_CPT
+                            [order-item] => WC_Order_Item_Data_Store
+                            [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                            [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                            [order-item-product] => WC_Order_Item_Product_Data_Store
+                            [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                            [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                            [payment-token] => WC_Payment_Token_Data_Store
+                            [product] => WC_Product_Data_Store_CPT
+                            [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                            [product-variable] => WC_Product_Variable_Data_Store_CPT
+                            [product-variation] => WC_Product_Variation_Data_Store_CPT
+                            [shipping-zone] => WC_Shipping_Zone_Data_Store
+                            [webhook] => WC_Webhook_Data_Store
+                            [subscription] => WCS_Subscription_Data_Store_CPT
+                            [product-variable-subscription] => WCS_Product_Variable_Data_Store_CPT
+                            [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
+                            [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
+                            [report-revenue-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-orders] => WC_Admin_Reports_Orders_Data_Store
+                            [report-orders-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-products] => WC_Admin_Reports_Products_Data_Store
+                            [report-variations] => WC_Admin_Reports_Variations_Data_Store
+                            [report-products-stats] => WC_Admin_Reports_Products_Stats_Data_Store
+                            [report-categories] => WC_Admin_Reports_Categories_Data_Store
+                            [report-taxes] => WC_Admin_Reports_Taxes_Data_Store
+                            [report-taxes-stats] => WC_Admin_Reports_Taxes_Stats_Data_Store
+                            [report-coupons] => WC_Admin_Reports_Coupons_Data_Store
+                            [report-coupons-stats] => WC_Admin_Reports_Coupons_Stats_Data_Store
+                            [report-downloads] => WC_Admin_Reports_Downloads_Data_Store
+                            [report-downloads-stats] => WC_Admin_Reports_Downloads_Stats_Data_Store
+                            [admin-note] => WC_Admin_Notes_Data_Store
+                            [report-customers] => WC_Admin_Reports_Customers_Data_Store
+                            [report-customers-stats] => WC_Admin_Reports_Customers_Stats_Data_Store
+                            [report-stock-stats] => WC_Admin_Reports_Stock_Stats_Data_Store
+                        )
+
+                    [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
+                    [object_type:WC_Data_Store:private] => order
+                )
+
+            [meta_data:protected] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 203086
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 203086
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 203087
+                                    [key] => _subscription_switch_data
+                                    [value] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 203087
+                                    [key] => _subscription_switch_data
+                                    [value] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-12-2020 @ 11:48:27 - Array
+(
+    [current_user->ID] => 386
+    [BillingId] => 001589240518-386
+)
+
+05-12-2020 @ 11:48:54 - ====== callback function has been accessed
+05-12-2020 @ 11:48:54 - Array
+(
+    [enc_hex] => 00001101156628030bc1076f7b9d3c53
+)
+
+05-12-2020 @ 11:48:54 - Array
+(
+    [resultReq->result] => 00001101156628030bc1076f7b9d3c53
+    [enc_hex] => 00001101156628030bc1076f7b9d3c53
+)
+
+05-12-2020 @ 11:48:54 - ========= requesting transaction result
+05-12-2020 @ 11:48:54 - Array
+(
+    [response] => DpsPxPayResultResponse Object
+        (
+            [isValid] => 1
+            [success] => 1
+            [amount] => 99.4
+            [authCode] => 103224
+            [cardHoldersName] => VISA DEBIT CARDHOLDER
+            [cardName] => Visa
+            [cardNumber] => 483741......2198
+            [cardExpiryMonth] => 06
+            [cardExpiryYear] => 22
+            [txnRef] => 0000000b6db67dbf
+            [statusText] => APPROVED
+            [recurringID] => 0000110427839868
+            [currencySettlement] => NZD
+            [currencyInput] => NZD
+            [option1] => Order number : 27611
+            [option2] => Sherly Kahu
+            [option3] => Kahusherly@yahoo.com
+            [txnType] => Purchase
+            [invoiceReference] => hotshot.co.nz - Order # 27611
+            [clientIP] => 49.224.119.132
+            [transactionNumber] => ID5eb9e2c6ab102-
+            [emailAddress] => Kahusherly@yahoo.com
+            [billingID] => 001589240518-386
+            [txnMac] => 2601D67F
+            [cardNumber2] => 
+            [cvc2ResultCode] => M
+        )
+
+    [orderId] => Array
+        (
+            [0] => Order number 
+            [1] =>  27611
+        )
+
+    [order] => WC_Order Object
+        (
+            [status_transition:protected] => 
+            [data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => processing
+                    [currency] => NZD
+                    [version] => 3.6.4
+                    [prices_include_tax] => 
+                    [date_created] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-05-12 11:41:47.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [date_modified] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-05-12 11:48:24.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0.00
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 99.40
+                    [total_tax] => 0
+                    [customer_id] => 386
+                    [order_key] => wc_order_m4fIs4iKiLLuX
+                    [billing] => Array
+                        (
+                            [first_name] => Sherly
+                            [last_name] => Kahu
+                            [company] => Home
+                            [address_1] => 31 Royal Park Drive
+                            [address_2] => Parklands
+                            [city] => Christchurch
+                            [state] => 
+                            [postcode] => 8083
+                            [country] => NZ
+                            [email] => Kahusherly@yahoo.com
+                            [phone] => 0221752470
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => Sherly
+                            [last_name] => Kahu
+                            [company] => Home
+                            [address_1] => 31 Royal Park Drive
+                            [address_2] => Parklands
+                            [city] => Christchurch
+                            [state] => 
+                            [postcode] => 8083
+                            [country] => NZ
+                        )
+
+                    [payment_method] => payment_express_hybrid
+                    [payment_method_title] => Payment Express
+                    [transaction_id] => 
+                    [customer_ip_address] => 103.232.204.38
+                    [customer_user_agent] => Mozilla/5.0 (Linux; Android 8.0.0; ATU-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36
+                    [created_via] => checkout
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-05-12 11:48:24.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [cart_hash] => d6416de8be757ba5248c5e3e4c851089
+                )
+
+            [items:protected] => Array
+                (
+                )
+
+            [items_to_delete:protected] => Array
+                (
+                )
+
+            [cache_group:protected] => orders
+            [data_store_name:protected] => order
+            [object_type:protected] => order
+            [id:protected] => 27611
+            [changes:protected] => Array
+                (
+                )
+
+            [object_read:protected] => 1
+            [extra_data:protected] => Array
+                (
+                )
+
+            [default_data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => 
+                    [currency] => 
+                    [version] => 
+                    [prices_include_tax] => 
+                    [date_created] => 
+                    [date_modified] => 
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [customer_id] => 0
+                    [order_key] => 
+                    [billing] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                            [email] => 
+                            [phone] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => 
+                    [payment_method_title] => 
+                    [transaction_id] => 
+                    [customer_ip_address] => 
+                    [customer_user_agent] => 
+                    [created_via] => 
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 
+                )
+
+            [data_store:protected] => WC_Data_Store Object
+                (
+                    [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
+                        (
+                            [internal_meta_keys:protected] => Array
+                                (
+                                    [0] => _parent_id
+                                    [1] => _status
+                                    [2] => _currency
+                                    [3] => _version
+                                    [4] => _prices_include_tax
+                                    [5] => _date_created
+                                    [6] => _date_modified
+                                    [7] => _discount_total
+                                    [8] => _discount_tax
+                                    [9] => _shipping_total
+                                    [10] => _shipping_tax
+                                    [11] => _cart_tax
+                                    [12] => _total
+                                    [13] => _total_tax
+                                    [14] => _customer_id
+                                    [15] => _order_key
+                                    [16] => _billing
+                                    [17] => _shipping
+                                    [18] => _payment_method
+                                    [19] => _payment_method_title
+                                    [20] => _transaction_id
+                                    [21] => _customer_ip_address
+                                    [22] => _customer_user_agent
+                                    [23] => _created_via
+                                    [24] => _customer_note
+                                    [25] => _date_completed
+                                    [26] => _date_paid
+                                    [27] => _cart_hash
+                                    [28] => _customer_user
+                                    [29] => _order_key
+                                    [30] => _order_currency
+                                    [31] => _billing_first_name
+                                    [32] => _billing_last_name
+                                    [33] => _billing_company
+                                    [34] => _billing_address_1
+                                    [35] => _billing_address_2
+                                    [36] => _billing_city
+                                    [37] => _billing_state
+                                    [38] => _billing_postcode
+                                    [39] => _billing_country
+                                    [40] => _billing_email
+                                    [41] => _billing_phone
+                                    [42] => _shipping_first_name
+                                    [43] => _shipping_last_name
+                                    [44] => _shipping_company
+                                    [45] => _shipping_address_1
+                                    [46] => _shipping_address_2
+                                    [47] => _shipping_city
+                                    [48] => _shipping_state
+                                    [49] => _shipping_postcode
+                                    [50] => _shipping_country
+                                    [51] => _completed_date
+                                    [52] => _paid_date
+                                    [53] => _edit_lock
+                                    [54] => _edit_last
+                                    [55] => _cart_discount
+                                    [56] => _cart_discount_tax
+                                    [57] => _order_shipping
+                                    [58] => _order_shipping_tax
+                                    [59] => _order_tax
+                                    [60] => _order_total
+                                    [61] => _payment_method
+                                    [62] => _payment_method_title
+                                    [63] => _transaction_id
+                                    [64] => _customer_ip_address
+                                    [65] => _customer_user_agent
+                                    [66] => _created_via
+                                    [67] => _order_version
+                                    [68] => _prices_include_tax
+                                    [69] => _date_completed
+                                    [70] => _date_paid
+                                    [71] => _payment_tokens
+                                    [72] => _billing_address_index
+                                    [73] => _shipping_address_index
+                                    [74] => _recorded_sales
+                                    [75] => _recorded_coupon_usage_counts
+                                    [76] => _download_permissions_granted
+                                    [77] => _order_stock_reduced
+                                )
+
+                            [meta_type:protected] => post
+                            [object_id_field_for_meta:protected] => 
+                            [must_exist_meta_keys:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [stores:WC_Data_Store:private] => Array
+                        (
+                            [coupon] => WC_Coupon_Data_Store_CPT
+                            [customer] => WC_Customer_Data_Store
+                            [customer-download] => WC_Customer_Download_Data_Store
+                            [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                            [customer-session] => WC_Customer_Data_Store_Session
+                            [order] => WC_Order_Data_Store_CPT
+                            [order-refund] => WC_Order_Refund_Data_Store_CPT
+                            [order-item] => WC_Order_Item_Data_Store
+                            [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                            [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                            [order-item-product] => WC_Order_Item_Product_Data_Store
+                            [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                            [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                            [payment-token] => WC_Payment_Token_Data_Store
+                            [product] => WC_Product_Data_Store_CPT
+                            [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                            [product-variable] => WC_Product_Variable_Data_Store_CPT
+                            [product-variation] => WC_Product_Variation_Data_Store_CPT
+                            [shipping-zone] => WC_Shipping_Zone_Data_Store
+                            [webhook] => WC_Webhook_Data_Store
+                            [subscription] => WCS_Subscription_Data_Store_CPT
+                            [product-variable-subscription] => WCS_Product_Variable_Data_Store_CPT
+                            [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
+                            [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
+                            [report-revenue-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-orders] => WC_Admin_Reports_Orders_Data_Store
+                            [report-orders-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-products] => WC_Admin_Reports_Products_Data_Store
+                            [report-variations] => WC_Admin_Reports_Variations_Data_Store
+                            [report-products-stats] => WC_Admin_Reports_Products_Stats_Data_Store
+                            [report-categories] => WC_Admin_Reports_Categories_Data_Store
+                            [report-taxes] => WC_Admin_Reports_Taxes_Data_Store
+                            [report-taxes-stats] => WC_Admin_Reports_Taxes_Stats_Data_Store
+                            [report-coupons] => WC_Admin_Reports_Coupons_Data_Store
+                            [report-coupons-stats] => WC_Admin_Reports_Coupons_Stats_Data_Store
+                            [report-downloads] => WC_Admin_Reports_Downloads_Data_Store
+                            [report-downloads-stats] => WC_Admin_Reports_Downloads_Stats_Data_Store
+                            [admin-note] => WC_Admin_Notes_Data_Store
+                            [report-customers] => WC_Admin_Reports_Customers_Data_Store
+                            [report-customers-stats] => WC_Admin_Reports_Customers_Stats_Data_Store
+                            [report-stock-stats] => WC_Admin_Reports_Stock_Stats_Data_Store
+                        )
+
+                    [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
+                    [object_type:WC_Data_Store:private] => order
+                )
+
+            [meta_data:protected] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 203086
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 203086
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 203087
+                                    [key] => _subscription_switch_data
+                                    [value] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 203087
+                                    [key] => _subscription_switch_data
+                                    [value] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 203318
+                                    [key] => _ga_tracked
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 203318
+                                    [key] => _ga_tracked
+                                    [value] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+05-12-2020 @ 11:48:54 - Array
+(
+    [current_user->ID] => 386
+    [BillingId] => 001589240518-386
+)
+

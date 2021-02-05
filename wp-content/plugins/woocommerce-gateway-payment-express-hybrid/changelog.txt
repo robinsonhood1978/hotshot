@@ -1,0 +1,30 @@
+# Changelog
+
+## 2.3  - 2020-04-09
+-- Fixed [Uncaught Error: Call to undefined function get_return_url()] - When the Payment is failed and Click on return button.
+
+## 2.2  - 2020-01-24
+-- Added the feature for payment switching.   
+
+## 2.1  - 2019-09-24
+## Fixed
+
+-- Fixed subscription renewal error.
+-- Fixed PHP Deprecated: Non-static method Woocommerce_paymentexpress_init::wc_pxpost_pxpost_parse_xml() should not be called statically.
+-- Fixed PHP Deprecated: Non-static method WC_Payment_Gateway::get_return_url() should not be called statically.
+
+## [2.0] - 2017-06-28
+
+### Changed
+class-woocommerce-gateway-payment-express-hybrid.php
+- Updated 'scheduled_subscription_payment_' to 'woocommerce_scheduled_subscription_payment_' as per WooCommerce Docs Subscriptions Action Reference  Payment and Renewal Actions.
+- Updated access to variables to use new WooCommerce 3.0 CRUD class functionality, including billing_first_name, billing_last_name, shipping_method, order total, billing_email, user_id and order id.
+
+### Added
+class-woocommerce-gateway-payment-express-hybrid.php
+- Added declaration of form variable to fix undeclared variable error in log.
+
+### Changed
+woocommerce-gateway-payment-express-hybrid.php
+- Updated name in call to available gateways to 'payment_express_hybrid' from 'Payment_Express'.
+- Updated access to variables to use new WooCommerce 3.0 CRUD class functionality, including order status and order payment_method.

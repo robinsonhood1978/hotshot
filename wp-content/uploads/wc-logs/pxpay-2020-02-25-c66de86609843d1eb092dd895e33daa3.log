@@ -1,0 +1,3848 @@
+02-25-2020 @ 15:30:13 - Array
+(
+    [return url] => https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+)
+
+02-25-2020 @ 15:30:13 - ========= initiating transaction request
+02-25-2020 @ 15:30:13 - test or live account, invoice ref: hotshot.co.nz - Order # 18945, transaction: ID5e5486b57b566-18945, amount: 69.90, billingID: 001582597813-166
+02-25-2020 @ 15:30:13 - success URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+02-25-2020 @ 15:30:13 - failure URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+02-25-2020 @ 15:30:13 - Array
+(
+    [access_userid] => HotShotBroadbandPx
+    [access_key] => d6c058c87cc26ea56a481537c248cdea9a9ce41293c144dd666c18abd6ab2917
+    [access_url] => https://sec.windcave.com/pxaccess/pxpay.aspx
+)
+
+02-25-2020 @ 15:30:13 - https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BCBF564101CAC9CC158EAE7F528CACF33BF0A80AAC5841310665A22EB04B44A98
+02-25-2020 @ 15:30:13 - Array
+(
+    [dps url] => https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BCBF564101CAC9CC158EAE7F528CACF33BF0A80AAC5841310665A22EB04B44A98
+    [ajax img_loader] => https://www.hotshot.nz/wp-content/plugins/woocommerce-gateway-payment-express-hybrid/images/ajax-loader.gif
+)
+
+02-25-2020 @ 15:30:28 - ====== callback function has been accessed
+02-25-2020 @ 15:30:28 - Array
+(
+    [enc_hex] => 00001101002337710b1694bc739ccda7
+)
+
+02-25-2020 @ 15:30:28 - Array
+(
+    [resultReq->result] => 00001101002337710b1694bc739ccda7
+    [enc_hex] => 00001101002337710b1694bc739ccda7
+)
+
+02-25-2020 @ 15:30:28 - ========= requesting transaction result
+02-25-2020 @ 15:30:28 - Array
+(
+    [response] => DpsPxPayResultResponse Object
+        (
+            [isValid] => 1
+            [success] => 1
+            [amount] => 69.9
+            [authCode] => 582770
+            [cardHoldersName] => TOBY YOUNG
+            [cardName] => Visa
+            [cardNumber] => 428455......6486
+            [cardExpiryMonth] => 01
+            [cardExpiryYear] => 23
+            [txnRef] => 0000000b64e40ecc
+            [statusText] => APPROVED
+            [recurringID] => 0000110410517915
+            [currencySettlement] => NZD
+            [currencyInput] => NZD
+            [option1] => Order number : 18945
+            [option2] => Toby Young
+            [option3] => tobyobyyoung@gmail.com
+            [txnType] => Purchase
+            [invoiceReference] => hotshot.co.nz - Order # 18945
+            [clientIP] => 43.245.172.29
+            [transactionNumber] => ID5e5486b57b566-
+            [emailAddress] => tobyobyyoung@gmail.com
+            [billingID] => 001582597813-166
+            [txnMac] => 24195F5D
+            [cardNumber2] => 
+            [cvc2ResultCode] => M
+        )
+
+    [orderId] => Array
+        (
+            [0] => Order number 
+            [1] =>  18945
+        )
+
+    [order] => WC_Order Object
+        (
+            [status_transition:protected] => 
+            [data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => pending
+                    [currency] => NZD
+                    [version] => 3.6.4
+                    [prices_include_tax] => 
+                    [date_created] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-24 11:51:14.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [date_modified] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-25 15:22:17.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0.00
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 69.90
+                    [total_tax] => 0
+                    [customer_id] => 166
+                    [order_key] => wc_order_mhlFslKRtJNz8
+                    [billing] => Array
+                        (
+                            [first_name] => Toby
+                            [last_name] => Young
+                            [company] => 
+                            [address_1] => 805 Clive Street
+                            [address_2] => Akina
+                            [city] => Hastings
+                            [state] => 
+                            [postcode] => 4122
+                            [country] => NZ
+                            [email] => tobyobyyoung@gmail.com
+                            [phone] => 0277722804
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => payment_express_hybrid
+                    [payment_method_title] => Payment Express
+                    [transaction_id] => 
+                    [customer_ip_address] => 43.245.172.29
+                    [customer_user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+                    [created_via] => subscription
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => d6fc08c2059d7bc68213ff773208fa86
+                )
+
+            [items:protected] => Array
+                (
+                )
+
+            [items_to_delete:protected] => Array
+                (
+                )
+
+            [cache_group:protected] => orders
+            [data_store_name:protected] => order
+            [object_type:protected] => order
+            [id:protected] => 18945
+            [changes:protected] => Array
+                (
+                )
+
+            [object_read:protected] => 1
+            [extra_data:protected] => Array
+                (
+                )
+
+            [default_data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => 
+                    [currency] => 
+                    [version] => 
+                    [prices_include_tax] => 
+                    [date_created] => 
+                    [date_modified] => 
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [customer_id] => 0
+                    [order_key] => 
+                    [billing] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                            [email] => 
+                            [phone] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => 
+                    [payment_method_title] => 
+                    [transaction_id] => 
+                    [customer_ip_address] => 
+                    [customer_user_agent] => 
+                    [created_via] => 
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 
+                )
+
+            [data_store:protected] => WC_Data_Store Object
+                (
+                    [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
+                        (
+                            [internal_meta_keys:protected] => Array
+                                (
+                                    [0] => _customer_user
+                                    [1] => _order_key
+                                    [2] => _order_currency
+                                    [3] => _billing_first_name
+                                    [4] => _billing_last_name
+                                    [5] => _billing_company
+                                    [6] => _billing_address_1
+                                    [7] => _billing_address_2
+                                    [8] => _billing_city
+                                    [9] => _billing_state
+                                    [10] => _billing_postcode
+                                    [11] => _billing_country
+                                    [12] => _billing_email
+                                    [13] => _billing_phone
+                                    [14] => _shipping_first_name
+                                    [15] => _shipping_last_name
+                                    [16] => _shipping_company
+                                    [17] => _shipping_address_1
+                                    [18] => _shipping_address_2
+                                    [19] => _shipping_city
+                                    [20] => _shipping_state
+                                    [21] => _shipping_postcode
+                                    [22] => _shipping_country
+                                    [23] => _completed_date
+                                    [24] => _paid_date
+                                    [25] => _edit_lock
+                                    [26] => _edit_last
+                                    [27] => _cart_discount
+                                    [28] => _cart_discount_tax
+                                    [29] => _order_shipping
+                                    [30] => _order_shipping_tax
+                                    [31] => _order_tax
+                                    [32] => _order_total
+                                    [33] => _payment_method
+                                    [34] => _payment_method_title
+                                    [35] => _transaction_id
+                                    [36] => _customer_ip_address
+                                    [37] => _customer_user_agent
+                                    [38] => _created_via
+                                    [39] => _order_version
+                                    [40] => _prices_include_tax
+                                    [41] => _date_completed
+                                    [42] => _date_paid
+                                    [43] => _payment_tokens
+                                    [44] => _billing_address_index
+                                    [45] => _shipping_address_index
+                                    [46] => _recorded_sales
+                                    [47] => _recorded_coupon_usage_counts
+                                    [48] => _download_permissions_granted
+                                    [49] => _order_stock_reduced
+                                )
+
+                            [meta_type:protected] => post
+                            [object_id_field_for_meta:protected] => 
+                            [must_exist_meta_keys:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [stores:WC_Data_Store:private] => Array
+                        (
+                            [coupon] => WC_Coupon_Data_Store_CPT
+                            [customer] => WC_Customer_Data_Store
+                            [customer-download] => WC_Customer_Download_Data_Store
+                            [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                            [customer-session] => WC_Customer_Data_Store_Session
+                            [order] => WC_Order_Data_Store_CPT
+                            [order-refund] => WC_Order_Refund_Data_Store_CPT
+                            [order-item] => WC_Order_Item_Data_Store
+                            [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                            [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                            [order-item-product] => WC_Order_Item_Product_Data_Store
+                            [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                            [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                            [payment-token] => WC_Payment_Token_Data_Store
+                            [product] => WC_Product_Data_Store_CPT
+                            [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                            [product-variable] => WC_Product_Variable_Data_Store_CPT
+                            [product-variation] => WC_Product_Variation_Data_Store_CPT
+                            [shipping-zone] => WC_Shipping_Zone_Data_Store
+                            [webhook] => WC_Webhook_Data_Store
+                            [subscription] => WCS_Subscription_Data_Store_CPT
+                            [product-variable-subscription] => WCS_Product_Variable_Data_Store_CPT
+                            [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
+                            [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
+                            [report-revenue-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-orders] => WC_Admin_Reports_Orders_Data_Store
+                            [report-orders-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-products] => WC_Admin_Reports_Products_Data_Store
+                            [report-variations] => WC_Admin_Reports_Variations_Data_Store
+                            [report-products-stats] => WC_Admin_Reports_Products_Stats_Data_Store
+                            [report-categories] => WC_Admin_Reports_Categories_Data_Store
+                            [report-taxes] => WC_Admin_Reports_Taxes_Data_Store
+                            [report-taxes-stats] => WC_Admin_Reports_Taxes_Stats_Data_Store
+                            [report-coupons] => WC_Admin_Reports_Coupons_Data_Store
+                            [report-coupons-stats] => WC_Admin_Reports_Coupons_Stats_Data_Store
+                            [report-downloads] => WC_Admin_Reports_Downloads_Data_Store
+                            [report-downloads-stats] => WC_Admin_Reports_Downloads_Stats_Data_Store
+                            [admin-note] => WC_Admin_Notes_Data_Store
+                            [report-customers] => WC_Admin_Reports_Customers_Data_Store
+                            [report-customers-stats] => WC_Admin_Reports_Customers_Stats_Data_Store
+                            [report-stock-stats] => WC_Admin_Reports_Stock_Stats_Data_Store
+                        )
+
+                    [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
+                    [object_type:WC_Data_Store:private] => order
+                )
+
+            [meta_data:protected] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131411
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131411
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131412
+                                    [key] => _installation_address
+                                    [value] => 805 Clive Street, Akina, Hastings 4122
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131412
+                                    [key] => _installation_address
+                                    [value] => 805 Clive Street, Akina, Hastings 4122
+                                )
+
+                        )
+
+                    [2] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131413
+                                    [key] => _installation_street
+                                    [value] => 805 Clive Street
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131413
+                                    [key] => _installation_street
+                                    [value] => 805 Clive Street
+                                )
+
+                        )
+
+                    [3] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131414
+                                    [key] => _is_auckland
+                                    [value] => hastings district
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131414
+                                    [key] => _is_auckland
+                                    [value] => hastings district
+                                )
+
+                        )
+
+                    [4] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131415
+                                    [key] => _installation_suburb
+                                    [value] => Akina
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131415
+                                    [key] => _installation_suburb
+                                    [value] => Akina
+                                )
+
+                        )
+
+                    [5] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131416
+                                    [key] => _installation_city
+                                    [value] => Hastings
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131416
+                                    [key] => _installation_city
+                                    [value] => Hastings
+                                )
+
+                        )
+
+                    [6] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131417
+                                    [key] => _installation_postcode
+                                    [value] => 4122
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131417
+                                    [key] => _installation_postcode
+                                    [value] => 4122
+                                )
+
+                        )
+
+                    [7] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131418
+                                    [key] => _contact_first_name
+                                    [value] => Toby
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131418
+                                    [key] => _contact_first_name
+                                    [value] => Toby
+                                )
+
+                        )
+
+                    [8] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131419
+                                    [key] => _contact_last_name
+                                    [value] => Young
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131419
+                                    [key] => _contact_last_name
+                                    [value] => Young
+                                )
+
+                        )
+
+                    [9] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131420
+                                    [key] => _connection_date
+                                    [value] => asap
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131420
+                                    [key] => _connection_date
+                                    [value] => asap
+                                )
+
+                        )
+
+                    [10] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131421
+                                    [key] => _contact_number
+                                    [value] => 0277722804
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131421
+                                    [key] => _contact_number
+                                    [value] => 0277722804
+                                )
+
+                        )
+
+                    [11] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131422
+                                    [key] => _contact_email
+                                    [value] => tobyobyyoung@gmail.com
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131422
+                                    [key] => _contact_email
+                                    [value] => tobyobyyoung@gmail.com
+                                )
+
+                        )
+
+                    [12] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131423
+                                    [key] => _has_delivery_address
+                                    [value] => false
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131423
+                                    [key] => _has_delivery_address
+                                    [value] => false
+                                )
+
+                        )
+
+                    [13] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131424
+                                    [key] => _has_landline
+                                    [value] => false
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131424
+                                    [key] => _has_landline
+                                    [value] => false
+                                )
+
+                        )
+
+                    [14] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131425
+                                    [key] => _last_provider
+                                    [value] => MyRepublic
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131425
+                                    [key] => _last_provider
+                                    [value] => MyRepublic
+                                )
+
+                        )
+
+                    [15] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131426
+                                    [key] => _order_comments
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131426
+                                    [key] => _order_comments
+                                    [value] => 
+                                )
+
+                        )
+
+                    [16] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131435
+                                    [key] => _subscription_renewal
+                                    [value] => 14299
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131435
+                                    [key] => _subscription_renewal
+                                    [value] => 14299
+                                )
+
+                        )
+
+                    [17] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133024
+                                    [key] => slide_template
+                                    [value] => default
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133024
+                                    [key] => slide_template
+                                    [value] => default
+                                )
+
+                        )
+
+                    [18] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133058
+                                    [key] => trx_addons_post_views_count
+                                    [value] => 0
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133058
+                                    [key] => trx_addons_post_views_count
+                                    [value] => 0
+                                )
+
+                        )
+
+                    [19] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133059
+                                    [key] => trx_addons_post_likes_count
+                                    [value] => 0
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133059
+                                    [key] => trx_addons_post_likes_count
+                                    [value] => 0
+                                )
+
+                        )
+
+                    [20] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133060
+                                    [key] => eg_sources_html5_mp4
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133060
+                                    [key] => eg_sources_html5_mp4
+                                    [value] => 
+                                )
+
+                        )
+
+                    [21] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133061
+                                    [key] => eg_sources_html5_ogv
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133061
+                                    [key] => eg_sources_html5_ogv
+                                    [value] => 
+                                )
+
+                        )
+
+                    [22] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133062
+                                    [key] => eg_sources_html5_webm
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133062
+                                    [key] => eg_sources_html5_webm
+                                    [value] => 
+                                )
+
+                        )
+
+                    [23] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133063
+                                    [key] => eg_sources_youtube
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133063
+                                    [key] => eg_sources_youtube
+                                    [value] => 
+                                )
+
+                        )
+
+                    [24] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133064
+                                    [key] => eg_sources_vimeo
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133064
+                                    [key] => eg_sources_vimeo
+                                    [value] => 
+                                )
+
+                        )
+
+                    [25] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133065
+                                    [key] => eg_sources_wistia
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133065
+                                    [key] => eg_sources_wistia
+                                    [value] => 
+                                )
+
+                        )
+
+                    [26] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133066
+                                    [key] => eg_sources_image
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133066
+                                    [key] => eg_sources_image
+                                    [value] => 
+                                )
+
+                        )
+
+                    [27] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133067
+                                    [key] => eg_sources_iframe
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133067
+                                    [key] => eg_sources_iframe
+                                    [value] => 
+                                )
+
+                        )
+
+                    [28] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133068
+                                    [key] => eg_sources_soundcloud
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133068
+                                    [key] => eg_sources_soundcloud
+                                    [value] => 
+                                )
+
+                        )
+
+                    [29] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133069
+                                    [key] => eg_vimeo_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133069
+                                    [key] => eg_vimeo_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [30] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133070
+                                    [key] => eg_youtube_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133070
+                                    [key] => eg_youtube_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [31] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133071
+                                    [key] => eg_wistia_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133071
+                                    [key] => eg_wistia_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [32] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133072
+                                    [key] => eg_html5_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133072
+                                    [key] => eg_html5_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [33] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133073
+                                    [key] => eg_soundcloud_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133073
+                                    [key] => eg_soundcloud_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [34] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133074
+                                    [key] => eg_sources_revslider
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133074
+                                    [key] => eg_sources_revslider
+                                    [value] => 
+                                )
+
+                        )
+
+                    [35] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133075
+                                    [key] => eg_sources_essgrid
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133075
+                                    [key] => eg_sources_essgrid
+                                    [value] => 
+                                )
+
+                        )
+
+                    [36] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133076
+                                    [key] => eg_featured_grid
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133076
+                                    [key] => eg_featured_grid
+                                    [value] => 
+                                )
+
+                        )
+
+                    [37] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133077
+                                    [key] => eg_settings_custom_meta_skin
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133077
+                                    [key] => eg_settings_custom_meta_skin
+                                    [value] => 
+                                )
+
+                        )
+
+                    [38] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133078
+                                    [key] => eg_settings_custom_meta_element
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133078
+                                    [key] => eg_settings_custom_meta_element
+                                    [value] => 
+                                )
+
+                        )
+
+                    [39] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133079
+                                    [key] => eg_settings_custom_meta_setting
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133079
+                                    [key] => eg_settings_custom_meta_setting
+                                    [value] => 
+                                )
+
+                        )
+
+                    [40] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133080
+                                    [key] => eg_settings_custom_meta_style
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133080
+                                    [key] => eg_settings_custom_meta_style
+                                    [value] => 
+                                )
+
+                        )
+
+                    [41] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133081
+                                    [key] => eg_custom_meta_216
+                                    [value] => true
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133081
+                                    [key] => eg_custom_meta_216
+                                    [value] => true
+                                )
+
+                        )
+
+                    [42] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133082
+                                    [key] => eg_votes_count
+                                    [value] => 0
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133082
+                                    [key] => eg_votes_count
+                                    [value] => 0
+                                )
+
+                        )
+
+                    [43] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133083
+                                    [key] => eg-channel-image
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133083
+                                    [key] => eg-channel-image
+                                    [value] => 
+                                )
+
+                        )
+
+                    [44] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133444
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133444
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+02-25-2020 @ 15:30:28 - ====== callback function has been accessed
+02-25-2020 @ 15:30:28 - Array
+(
+    [enc_hex] => 00001101002337710b1694bc739ccda7
+)
+
+02-25-2020 @ 15:30:28 - Array
+(
+    [resultReq->result] => 00001101002337710b1694bc739ccda7
+    [enc_hex] => 00001101002337710b1694bc739ccda7
+)
+
+02-25-2020 @ 15:30:28 - ========= requesting transaction result
+02-25-2020 @ 15:30:28 - Array
+(
+    [response] => DpsPxPayResultResponse Object
+        (
+            [isValid] => 1
+            [success] => 1
+            [amount] => 69.9
+            [authCode] => 582770
+            [cardHoldersName] => TOBY YOUNG
+            [cardName] => Visa
+            [cardNumber] => 428455......6486
+            [cardExpiryMonth] => 01
+            [cardExpiryYear] => 23
+            [txnRef] => 0000000b64e40ecc
+            [statusText] => APPROVED
+            [recurringID] => 0000110410517915
+            [currencySettlement] => NZD
+            [currencyInput] => NZD
+            [option1] => Order number : 18945
+            [option2] => Toby Young
+            [option3] => tobyobyyoung@gmail.com
+            [txnType] => Purchase
+            [invoiceReference] => hotshot.co.nz - Order # 18945
+            [clientIP] => 43.245.172.29
+            [transactionNumber] => ID5e5486b57b566-
+            [emailAddress] => tobyobyyoung@gmail.com
+            [billingID] => 001582597813-166
+            [txnMac] => 24195F5D
+            [cardNumber2] => 
+            [cvc2ResultCode] => M
+        )
+
+    [orderId] => Array
+        (
+            [0] => Order number 
+            [1] =>  18945
+        )
+
+    [order] => WC_Order Object
+        (
+            [status_transition:protected] => 
+            [data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => processing
+                    [currency] => NZD
+                    [version] => 3.6.4
+                    [prices_include_tax] => 
+                    [date_created] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-24 11:51:14.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [date_modified] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-25 15:30:28.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0.00
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 69.90
+                    [total_tax] => 0
+                    [customer_id] => 166
+                    [order_key] => wc_order_mhlFslKRtJNz8
+                    [billing] => Array
+                        (
+                            [first_name] => Toby
+                            [last_name] => Young
+                            [company] => 
+                            [address_1] => 805 Clive Street
+                            [address_2] => Akina
+                            [city] => Hastings
+                            [state] => 
+                            [postcode] => 4122
+                            [country] => NZ
+                            [email] => tobyobyyoung@gmail.com
+                            [phone] => 0277722804
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => payment_express_hybrid
+                    [payment_method_title] => Payment Express
+                    [transaction_id] => 
+                    [customer_ip_address] => 43.245.172.29
+                    [customer_user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36
+                    [created_via] => subscription
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-25 15:30:28.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [cart_hash] => d6fc08c2059d7bc68213ff773208fa86
+                )
+
+            [items:protected] => Array
+                (
+                )
+
+            [items_to_delete:protected] => Array
+                (
+                )
+
+            [cache_group:protected] => orders
+            [data_store_name:protected] => order
+            [object_type:protected] => order
+            [id:protected] => 18945
+            [changes:protected] => Array
+                (
+                )
+
+            [object_read:protected] => 1
+            [extra_data:protected] => Array
+                (
+                )
+
+            [default_data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => 
+                    [currency] => 
+                    [version] => 
+                    [prices_include_tax] => 
+                    [date_created] => 
+                    [date_modified] => 
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [customer_id] => 0
+                    [order_key] => 
+                    [billing] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                            [email] => 
+                            [phone] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => 
+                    [payment_method_title] => 
+                    [transaction_id] => 
+                    [customer_ip_address] => 
+                    [customer_user_agent] => 
+                    [created_via] => 
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 
+                )
+
+            [data_store:protected] => WC_Data_Store Object
+                (
+                    [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
+                        (
+                            [internal_meta_keys:protected] => Array
+                                (
+                                    [0] => _parent_id
+                                    [1] => _status
+                                    [2] => _currency
+                                    [3] => _version
+                                    [4] => _prices_include_tax
+                                    [5] => _date_created
+                                    [6] => _date_modified
+                                    [7] => _discount_total
+                                    [8] => _discount_tax
+                                    [9] => _shipping_total
+                                    [10] => _shipping_tax
+                                    [11] => _cart_tax
+                                    [12] => _total
+                                    [13] => _total_tax
+                                    [14] => _customer_id
+                                    [15] => _order_key
+                                    [16] => _billing
+                                    [17] => _shipping
+                                    [18] => _payment_method
+                                    [19] => _payment_method_title
+                                    [20] => _transaction_id
+                                    [21] => _customer_ip_address
+                                    [22] => _customer_user_agent
+                                    [23] => _created_via
+                                    [24] => _customer_note
+                                    [25] => _date_completed
+                                    [26] => _date_paid
+                                    [27] => _cart_hash
+                                    [28] => _customer_user
+                                    [29] => _order_key
+                                    [30] => _order_currency
+                                    [31] => _billing_first_name
+                                    [32] => _billing_last_name
+                                    [33] => _billing_company
+                                    [34] => _billing_address_1
+                                    [35] => _billing_address_2
+                                    [36] => _billing_city
+                                    [37] => _billing_state
+                                    [38] => _billing_postcode
+                                    [39] => _billing_country
+                                    [40] => _billing_email
+                                    [41] => _billing_phone
+                                    [42] => _shipping_first_name
+                                    [43] => _shipping_last_name
+                                    [44] => _shipping_company
+                                    [45] => _shipping_address_1
+                                    [46] => _shipping_address_2
+                                    [47] => _shipping_city
+                                    [48] => _shipping_state
+                                    [49] => _shipping_postcode
+                                    [50] => _shipping_country
+                                    [51] => _completed_date
+                                    [52] => _paid_date
+                                    [53] => _edit_lock
+                                    [54] => _edit_last
+                                    [55] => _cart_discount
+                                    [56] => _cart_discount_tax
+                                    [57] => _order_shipping
+                                    [58] => _order_shipping_tax
+                                    [59] => _order_tax
+                                    [60] => _order_total
+                                    [61] => _payment_method
+                                    [62] => _payment_method_title
+                                    [63] => _transaction_id
+                                    [64] => _customer_ip_address
+                                    [65] => _customer_user_agent
+                                    [66] => _created_via
+                                    [67] => _order_version
+                                    [68] => _prices_include_tax
+                                    [69] => _date_completed
+                                    [70] => _date_paid
+                                    [71] => _payment_tokens
+                                    [72] => _billing_address_index
+                                    [73] => _shipping_address_index
+                                    [74] => _recorded_sales
+                                    [75] => _recorded_coupon_usage_counts
+                                    [76] => _download_permissions_granted
+                                    [77] => _order_stock_reduced
+                                )
+
+                            [meta_type:protected] => post
+                            [object_id_field_for_meta:protected] => 
+                            [must_exist_meta_keys:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [stores:WC_Data_Store:private] => Array
+                        (
+                            [coupon] => WC_Coupon_Data_Store_CPT
+                            [customer] => WC_Customer_Data_Store
+                            [customer-download] => WC_Customer_Download_Data_Store
+                            [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                            [customer-session] => WC_Customer_Data_Store_Session
+                            [order] => WC_Order_Data_Store_CPT
+                            [order-refund] => WC_Order_Refund_Data_Store_CPT
+                            [order-item] => WC_Order_Item_Data_Store
+                            [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                            [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                            [order-item-product] => WC_Order_Item_Product_Data_Store
+                            [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                            [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                            [payment-token] => WC_Payment_Token_Data_Store
+                            [product] => WC_Product_Data_Store_CPT
+                            [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                            [product-variable] => WC_Product_Variable_Data_Store_CPT
+                            [product-variation] => WC_Product_Variation_Data_Store_CPT
+                            [shipping-zone] => WC_Shipping_Zone_Data_Store
+                            [webhook] => WC_Webhook_Data_Store
+                            [subscription] => WCS_Subscription_Data_Store_CPT
+                            [product-variable-subscription] => WCS_Product_Variable_Data_Store_CPT
+                            [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
+                            [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
+                            [report-revenue-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-orders] => WC_Admin_Reports_Orders_Data_Store
+                            [report-orders-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-products] => WC_Admin_Reports_Products_Data_Store
+                            [report-variations] => WC_Admin_Reports_Variations_Data_Store
+                            [report-products-stats] => WC_Admin_Reports_Products_Stats_Data_Store
+                            [report-categories] => WC_Admin_Reports_Categories_Data_Store
+                            [report-taxes] => WC_Admin_Reports_Taxes_Data_Store
+                            [report-taxes-stats] => WC_Admin_Reports_Taxes_Stats_Data_Store
+                            [report-coupons] => WC_Admin_Reports_Coupons_Data_Store
+                            [report-coupons-stats] => WC_Admin_Reports_Coupons_Stats_Data_Store
+                            [report-downloads] => WC_Admin_Reports_Downloads_Data_Store
+                            [report-downloads-stats] => WC_Admin_Reports_Downloads_Stats_Data_Store
+                            [admin-note] => WC_Admin_Notes_Data_Store
+                            [report-customers] => WC_Admin_Reports_Customers_Data_Store
+                            [report-customers-stats] => WC_Admin_Reports_Customers_Stats_Data_Store
+                            [report-stock-stats] => WC_Admin_Reports_Stock_Stats_Data_Store
+                        )
+
+                    [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
+                    [object_type:WC_Data_Store:private] => order
+                )
+
+            [meta_data:protected] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131411
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131411
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131412
+                                    [key] => _installation_address
+                                    [value] => 805 Clive Street, Akina, Hastings 4122
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131412
+                                    [key] => _installation_address
+                                    [value] => 805 Clive Street, Akina, Hastings 4122
+                                )
+
+                        )
+
+                    [2] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131413
+                                    [key] => _installation_street
+                                    [value] => 805 Clive Street
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131413
+                                    [key] => _installation_street
+                                    [value] => 805 Clive Street
+                                )
+
+                        )
+
+                    [3] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131414
+                                    [key] => _is_auckland
+                                    [value] => hastings district
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131414
+                                    [key] => _is_auckland
+                                    [value] => hastings district
+                                )
+
+                        )
+
+                    [4] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131415
+                                    [key] => _installation_suburb
+                                    [value] => Akina
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131415
+                                    [key] => _installation_suburb
+                                    [value] => Akina
+                                )
+
+                        )
+
+                    [5] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131416
+                                    [key] => _installation_city
+                                    [value] => Hastings
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131416
+                                    [key] => _installation_city
+                                    [value] => Hastings
+                                )
+
+                        )
+
+                    [6] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131417
+                                    [key] => _installation_postcode
+                                    [value] => 4122
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131417
+                                    [key] => _installation_postcode
+                                    [value] => 4122
+                                )
+
+                        )
+
+                    [7] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131418
+                                    [key] => _contact_first_name
+                                    [value] => Toby
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131418
+                                    [key] => _contact_first_name
+                                    [value] => Toby
+                                )
+
+                        )
+
+                    [8] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131419
+                                    [key] => _contact_last_name
+                                    [value] => Young
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131419
+                                    [key] => _contact_last_name
+                                    [value] => Young
+                                )
+
+                        )
+
+                    [9] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131420
+                                    [key] => _connection_date
+                                    [value] => asap
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131420
+                                    [key] => _connection_date
+                                    [value] => asap
+                                )
+
+                        )
+
+                    [10] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131421
+                                    [key] => _contact_number
+                                    [value] => 0277722804
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131421
+                                    [key] => _contact_number
+                                    [value] => 0277722804
+                                )
+
+                        )
+
+                    [11] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131422
+                                    [key] => _contact_email
+                                    [value] => tobyobyyoung@gmail.com
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131422
+                                    [key] => _contact_email
+                                    [value] => tobyobyyoung@gmail.com
+                                )
+
+                        )
+
+                    [12] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131423
+                                    [key] => _has_delivery_address
+                                    [value] => false
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131423
+                                    [key] => _has_delivery_address
+                                    [value] => false
+                                )
+
+                        )
+
+                    [13] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131424
+                                    [key] => _has_landline
+                                    [value] => false
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131424
+                                    [key] => _has_landline
+                                    [value] => false
+                                )
+
+                        )
+
+                    [14] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131425
+                                    [key] => _last_provider
+                                    [value] => MyRepublic
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131425
+                                    [key] => _last_provider
+                                    [value] => MyRepublic
+                                )
+
+                        )
+
+                    [15] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131426
+                                    [key] => _order_comments
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131426
+                                    [key] => _order_comments
+                                    [value] => 
+                                )
+
+                        )
+
+                    [16] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 131435
+                                    [key] => _subscription_renewal
+                                    [value] => 14299
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 131435
+                                    [key] => _subscription_renewal
+                                    [value] => 14299
+                                )
+
+                        )
+
+                    [17] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133024
+                                    [key] => slide_template
+                                    [value] => default
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133024
+                                    [key] => slide_template
+                                    [value] => default
+                                )
+
+                        )
+
+                    [18] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133058
+                                    [key] => trx_addons_post_views_count
+                                    [value] => 0
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133058
+                                    [key] => trx_addons_post_views_count
+                                    [value] => 0
+                                )
+
+                        )
+
+                    [19] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133059
+                                    [key] => trx_addons_post_likes_count
+                                    [value] => 0
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133059
+                                    [key] => trx_addons_post_likes_count
+                                    [value] => 0
+                                )
+
+                        )
+
+                    [20] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133060
+                                    [key] => eg_sources_html5_mp4
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133060
+                                    [key] => eg_sources_html5_mp4
+                                    [value] => 
+                                )
+
+                        )
+
+                    [21] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133061
+                                    [key] => eg_sources_html5_ogv
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133061
+                                    [key] => eg_sources_html5_ogv
+                                    [value] => 
+                                )
+
+                        )
+
+                    [22] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133062
+                                    [key] => eg_sources_html5_webm
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133062
+                                    [key] => eg_sources_html5_webm
+                                    [value] => 
+                                )
+
+                        )
+
+                    [23] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133063
+                                    [key] => eg_sources_youtube
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133063
+                                    [key] => eg_sources_youtube
+                                    [value] => 
+                                )
+
+                        )
+
+                    [24] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133064
+                                    [key] => eg_sources_vimeo
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133064
+                                    [key] => eg_sources_vimeo
+                                    [value] => 
+                                )
+
+                        )
+
+                    [25] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133065
+                                    [key] => eg_sources_wistia
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133065
+                                    [key] => eg_sources_wistia
+                                    [value] => 
+                                )
+
+                        )
+
+                    [26] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133066
+                                    [key] => eg_sources_image
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133066
+                                    [key] => eg_sources_image
+                                    [value] => 
+                                )
+
+                        )
+
+                    [27] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133067
+                                    [key] => eg_sources_iframe
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133067
+                                    [key] => eg_sources_iframe
+                                    [value] => 
+                                )
+
+                        )
+
+                    [28] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133068
+                                    [key] => eg_sources_soundcloud
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133068
+                                    [key] => eg_sources_soundcloud
+                                    [value] => 
+                                )
+
+                        )
+
+                    [29] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133069
+                                    [key] => eg_vimeo_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133069
+                                    [key] => eg_vimeo_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [30] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133070
+                                    [key] => eg_youtube_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133070
+                                    [key] => eg_youtube_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [31] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133071
+                                    [key] => eg_wistia_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133071
+                                    [key] => eg_wistia_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [32] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133072
+                                    [key] => eg_html5_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133072
+                                    [key] => eg_html5_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [33] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133073
+                                    [key] => eg_soundcloud_ratio
+                                    [value] => 1
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133073
+                                    [key] => eg_soundcloud_ratio
+                                    [value] => 1
+                                )
+
+                        )
+
+                    [34] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133074
+                                    [key] => eg_sources_revslider
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133074
+                                    [key] => eg_sources_revslider
+                                    [value] => 
+                                )
+
+                        )
+
+                    [35] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133075
+                                    [key] => eg_sources_essgrid
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133075
+                                    [key] => eg_sources_essgrid
+                                    [value] => 
+                                )
+
+                        )
+
+                    [36] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133076
+                                    [key] => eg_featured_grid
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133076
+                                    [key] => eg_featured_grid
+                                    [value] => 
+                                )
+
+                        )
+
+                    [37] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133077
+                                    [key] => eg_settings_custom_meta_skin
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133077
+                                    [key] => eg_settings_custom_meta_skin
+                                    [value] => 
+                                )
+
+                        )
+
+                    [38] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133078
+                                    [key] => eg_settings_custom_meta_element
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133078
+                                    [key] => eg_settings_custom_meta_element
+                                    [value] => 
+                                )
+
+                        )
+
+                    [39] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133079
+                                    [key] => eg_settings_custom_meta_setting
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133079
+                                    [key] => eg_settings_custom_meta_setting
+                                    [value] => 
+                                )
+
+                        )
+
+                    [40] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133080
+                                    [key] => eg_settings_custom_meta_style
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133080
+                                    [key] => eg_settings_custom_meta_style
+                                    [value] => 
+                                )
+
+                        )
+
+                    [41] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133081
+                                    [key] => eg_custom_meta_216
+                                    [value] => true
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133081
+                                    [key] => eg_custom_meta_216
+                                    [value] => true
+                                )
+
+                        )
+
+                    [42] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133082
+                                    [key] => eg_votes_count
+                                    [value] => 0
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133082
+                                    [key] => eg_votes_count
+                                    [value] => 0
+                                )
+
+                        )
+
+                    [43] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133083
+                                    [key] => eg-channel-image
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133083
+                                    [key] => eg-channel-image
+                                    [value] => 
+                                )
+
+                        )
+
+                    [44] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133444
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133444
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+02-25-2020 @ 15:30:28 - Array
+(
+    [current_user->ID] => 166
+    [BillingId] => 001582597813-166
+)
+
+02-25-2020 @ 15:30:30 - Array
+(
+    [current_user->ID] => 166
+    [BillingId] => 001582597813-166
+)
+
+02-25-2020 @ 18:04:25 - Array
+(
+    [return url] => https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+)
+
+02-25-2020 @ 18:04:25 - ========= initiating transaction request
+02-25-2020 @ 18:04:25 - test or live account, invoice ref: hotshot.co.nz - Order # 19129, transaction: ID5e54aad926a6d-19129, amount: 69.90, billingID: 001582607065-87
+02-25-2020 @ 18:04:25 - success URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+02-25-2020 @ 18:04:25 - failure URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+02-25-2020 @ 18:04:25 - Array
+(
+    [access_userid] => HotShotBroadbandPx
+    [access_key] => d6c058c87cc26ea56a481537c248cdea9a9ce41293c144dd666c18abd6ab2917
+    [access_url] => https://sec.windcave.com/pxaccess/pxpay.aspx
+)
+
+02-25-2020 @ 18:04:25 - https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BCBF564101CAC9CC1BD65A262A5423838B1E332DD15A9FF92DDC900B825ACBF75
+02-25-2020 @ 18:04:25 - Array
+(
+    [dps url] => https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BCBF564101CAC9CC1BD65A262A5423838B1E332DD15A9FF92DDC900B825ACBF75
+    [ajax img_loader] => https://www.hotshot.nz/wp-content/plugins/woocommerce-gateway-payment-express-hybrid/images/ajax-loader.gif
+)
+
+02-25-2020 @ 18:05:25 - ====== callback function has been accessed
+02-25-2020 @ 18:05:25 - Array
+(
+    [enc_hex] => 00001101002669080b2d99d0dfc4827f
+)
+
+02-25-2020 @ 18:05:25 - Array
+(
+    [resultReq->result] => 00001101002669080b2d99d0dfc4827f
+    [enc_hex] => 00001101002669080b2d99d0dfc4827f
+)
+
+02-25-2020 @ 18:05:25 - ========= requesting transaction result
+02-25-2020 @ 18:05:25 - Array
+(
+    [response] => DpsPxPayResultResponse Object
+        (
+            [isValid] => 1
+            [success] => 1
+            [amount] => 69.9
+            [authCode] => 246491
+            [cardHoldersName] => CRISTOBAL CARDENAS
+            [cardName] => Visa
+            [cardNumber] => 483561......8039
+            [cardExpiryMonth] => 01
+            [cardExpiryYear] => 24
+            [txnRef] => 0000000b64ecbf13
+            [statusText] => APPROVED
+            [recurringID] => 0000110410582974
+            [currencySettlement] => NZD
+            [currencyInput] => NZD
+            [option1] => Order number : 19129
+            [option2] => Cristobal Cardenas Pasten
+            [option3] => ccardenasp@gmail.com
+            [txnType] => Purchase
+            [invoiceReference] => hotshot.co.nz - Order # 19129
+            [clientIP] => 116.12.57.93
+            [transactionNumber] => ID5e54aad926a6d-
+            [emailAddress] => ccardenasp@gmail.com
+            [billingID] => 001582607065-87
+            [txnMac] => 4B45DE96
+            [cardNumber2] => 
+            [cvc2ResultCode] => M
+        )
+
+    [orderId] => Array
+        (
+            [0] => Order number 
+            [1] =>  19129
+        )
+
+    [order] => WC_Order Object
+        (
+            [status_transition:protected] => 
+            [data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => pending
+                    [currency] => NZD
+                    [version] => 3.6.4
+                    [prices_include_tax] => 
+                    [date_created] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-25 14:03:56.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [date_modified] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-25 14:03:56.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0.00
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 69.90
+                    [total_tax] => 0
+                    [customer_id] => 87
+                    [order_key] => wc_order_0FFZ6RqCAvtoS
+                    [billing] => Array
+                        (
+                            [first_name] => Cristobal
+                            [last_name] => Cardenas Pasten
+                            [company] => 
+                            [address_1] => 404B Ellerslie-Panmure Highway
+                            [address_2] => Mount Wellington
+                            [city] => Auckland
+                            [state] => 
+                            [postcode] => 1060
+                            [country] => NZ
+                            [email] => ccardenasp@gmail.com
+                            [phone] => 0275394457
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => payment_express_hybrid
+                    [payment_method_title] => Payment Express
+                    [transaction_id] => 
+                    [customer_ip_address] => 116.12.57.93
+                    [customer_user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+                    [created_via] => subscription
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 70c2c9a371b073732cc009c187201bd0
+                )
+
+            [items:protected] => Array
+                (
+                )
+
+            [items_to_delete:protected] => Array
+                (
+                )
+
+            [cache_group:protected] => orders
+            [data_store_name:protected] => order
+            [object_type:protected] => order
+            [id:protected] => 19129
+            [changes:protected] => Array
+                (
+                )
+
+            [object_read:protected] => 1
+            [extra_data:protected] => Array
+                (
+                )
+
+            [default_data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => 
+                    [currency] => 
+                    [version] => 
+                    [prices_include_tax] => 
+                    [date_created] => 
+                    [date_modified] => 
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [customer_id] => 0
+                    [order_key] => 
+                    [billing] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                            [email] => 
+                            [phone] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => 
+                    [payment_method_title] => 
+                    [transaction_id] => 
+                    [customer_ip_address] => 
+                    [customer_user_agent] => 
+                    [created_via] => 
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 
+                )
+
+            [data_store:protected] => WC_Data_Store Object
+                (
+                    [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
+                        (
+                            [internal_meta_keys:protected] => Array
+                                (
+                                    [0] => _parent_id
+                                    [1] => _status
+                                    [2] => _currency
+                                    [3] => _version
+                                    [4] => _prices_include_tax
+                                    [5] => _date_created
+                                    [6] => _date_modified
+                                    [7] => _discount_total
+                                    [8] => _discount_tax
+                                    [9] => _shipping_total
+                                    [10] => _shipping_tax
+                                    [11] => _cart_tax
+                                    [12] => _total
+                                    [13] => _total_tax
+                                    [14] => _customer_id
+                                    [15] => _order_key
+                                    [16] => _billing
+                                    [17] => _shipping
+                                    [18] => _payment_method
+                                    [19] => _payment_method_title
+                                    [20] => _transaction_id
+                                    [21] => _customer_ip_address
+                                    [22] => _customer_user_agent
+                                    [23] => _created_via
+                                    [24] => _customer_note
+                                    [25] => _date_completed
+                                    [26] => _date_paid
+                                    [27] => _cart_hash
+                                    [28] => _customer_user
+                                    [29] => _order_key
+                                    [30] => _order_currency
+                                    [31] => _billing_first_name
+                                    [32] => _billing_last_name
+                                    [33] => _billing_company
+                                    [34] => _billing_address_1
+                                    [35] => _billing_address_2
+                                    [36] => _billing_city
+                                    [37] => _billing_state
+                                    [38] => _billing_postcode
+                                    [39] => _billing_country
+                                    [40] => _billing_email
+                                    [41] => _billing_phone
+                                    [42] => _shipping_first_name
+                                    [43] => _shipping_last_name
+                                    [44] => _shipping_company
+                                    [45] => _shipping_address_1
+                                    [46] => _shipping_address_2
+                                    [47] => _shipping_city
+                                    [48] => _shipping_state
+                                    [49] => _shipping_postcode
+                                    [50] => _shipping_country
+                                    [51] => _completed_date
+                                    [52] => _paid_date
+                                    [53] => _edit_lock
+                                    [54] => _edit_last
+                                    [55] => _cart_discount
+                                    [56] => _cart_discount_tax
+                                    [57] => _order_shipping
+                                    [58] => _order_shipping_tax
+                                    [59] => _order_tax
+                                    [60] => _order_total
+                                    [61] => _payment_method
+                                    [62] => _payment_method_title
+                                    [63] => _transaction_id
+                                    [64] => _customer_ip_address
+                                    [65] => _customer_user_agent
+                                    [66] => _created_via
+                                    [67] => _order_version
+                                    [68] => _prices_include_tax
+                                    [69] => _date_completed
+                                    [70] => _date_paid
+                                    [71] => _payment_tokens
+                                    [72] => _billing_address_index
+                                    [73] => _shipping_address_index
+                                    [74] => _recorded_sales
+                                    [75] => _recorded_coupon_usage_counts
+                                    [76] => _download_permissions_granted
+                                    [77] => _order_stock_reduced
+                                )
+
+                            [meta_type:protected] => post
+                            [object_id_field_for_meta:protected] => 
+                            [must_exist_meta_keys:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [stores:WC_Data_Store:private] => Array
+                        (
+                            [coupon] => WC_Coupon_Data_Store_CPT
+                            [customer] => WC_Customer_Data_Store
+                            [customer-download] => WC_Customer_Download_Data_Store
+                            [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                            [customer-session] => WC_Customer_Data_Store_Session
+                            [order] => WC_Order_Data_Store_CPT
+                            [order-refund] => WC_Order_Refund_Data_Store_CPT
+                            [order-item] => WC_Order_Item_Data_Store
+                            [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                            [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                            [order-item-product] => WC_Order_Item_Product_Data_Store
+                            [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                            [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                            [payment-token] => WC_Payment_Token_Data_Store
+                            [product] => WC_Product_Data_Store_CPT
+                            [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                            [product-variable] => WC_Product_Variable_Data_Store_CPT
+                            [product-variation] => WC_Product_Variation_Data_Store_CPT
+                            [shipping-zone] => WC_Shipping_Zone_Data_Store
+                            [webhook] => WC_Webhook_Data_Store
+                            [subscription] => WCS_Subscription_Data_Store_CPT
+                            [product-variable-subscription] => WCS_Product_Variable_Data_Store_CPT
+                            [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
+                            [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
+                            [report-revenue-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-orders] => WC_Admin_Reports_Orders_Data_Store
+                            [report-orders-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-products] => WC_Admin_Reports_Products_Data_Store
+                            [report-variations] => WC_Admin_Reports_Variations_Data_Store
+                            [report-products-stats] => WC_Admin_Reports_Products_Stats_Data_Store
+                            [report-categories] => WC_Admin_Reports_Categories_Data_Store
+                            [report-taxes] => WC_Admin_Reports_Taxes_Data_Store
+                            [report-taxes-stats] => WC_Admin_Reports_Taxes_Stats_Data_Store
+                            [report-coupons] => WC_Admin_Reports_Coupons_Data_Store
+                            [report-coupons-stats] => WC_Admin_Reports_Coupons_Stats_Data_Store
+                            [report-downloads] => WC_Admin_Reports_Downloads_Data_Store
+                            [report-downloads-stats] => WC_Admin_Reports_Downloads_Stats_Data_Store
+                            [admin-note] => WC_Admin_Notes_Data_Store
+                            [report-customers] => WC_Admin_Reports_Customers_Data_Store
+                            [report-customers-stats] => WC_Admin_Reports_Customers_Stats_Data_Store
+                            [report-stock-stats] => WC_Admin_Reports_Stock_Stats_Data_Store
+                        )
+
+                    [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
+                    [object_type:WC_Data_Store:private] => order
+                )
+
+            [meta_data:protected] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132957
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132957
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132958
+                                    [key] => _installation_address
+                                    [value] => 404B Ellerslie-Panmure Highway, Mount Wellington, Auckland 1060
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132958
+                                    [key] => _installation_address
+                                    [value] => 404B Ellerslie-Panmure Highway, Mount Wellington, Auckland 1060
+                                )
+
+                        )
+
+                    [2] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132959
+                                    [key] => _installation_street
+                                    [value] => 404B Ellerslie-Panmure Highway
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132959
+                                    [key] => _installation_street
+                                    [value] => 404B Ellerslie-Panmure Highway
+                                )
+
+                        )
+
+                    [3] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132960
+                                    [key] => _is_auckland
+                                    [value] => auckland
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132960
+                                    [key] => _is_auckland
+                                    [value] => auckland
+                                )
+
+                        )
+
+                    [4] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132961
+                                    [key] => _installation_suburb
+                                    [value] => Mount Wellington
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132961
+                                    [key] => _installation_suburb
+                                    [value] => Mount Wellington
+                                )
+
+                        )
+
+                    [5] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132962
+                                    [key] => _installation_city
+                                    [value] => Auckland
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132962
+                                    [key] => _installation_city
+                                    [value] => Auckland
+                                )
+
+                        )
+
+                    [6] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132963
+                                    [key] => _installation_postcode
+                                    [value] => 1060
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132963
+                                    [key] => _installation_postcode
+                                    [value] => 1060
+                                )
+
+                        )
+
+                    [7] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132964
+                                    [key] => _contact_first_name
+                                    [value] => Cristobal 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132964
+                                    [key] => _contact_first_name
+                                    [value] => Cristobal 
+                                )
+
+                        )
+
+                    [8] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132965
+                                    [key] => _contact_last_name
+                                    [value] => Cardenas Pasten
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132965
+                                    [key] => _contact_last_name
+                                    [value] => Cardenas Pasten
+                                )
+
+                        )
+
+                    [9] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132966
+                                    [key] => _connection_date
+                                    [value] => asap
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132966
+                                    [key] => _connection_date
+                                    [value] => asap
+                                )
+
+                        )
+
+                    [10] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132967
+                                    [key] => _contact_number
+                                    [value] => 0275394457
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132967
+                                    [key] => _contact_number
+                                    [value] => 0275394457
+                                )
+
+                        )
+
+                    [11] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132968
+                                    [key] => _contact_email
+                                    [value] => ccardenasp@gmail.com
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132968
+                                    [key] => _contact_email
+                                    [value] => ccardenasp@gmail.com
+                                )
+
+                        )
+
+                    [12] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132969
+                                    [key] => _has_delivery_address
+                                    [value] => false
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132969
+                                    [key] => _has_delivery_address
+                                    [value] => false
+                                )
+
+                        )
+
+                    [13] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132970
+                                    [key] => _has_landline
+                                    [value] => false
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132970
+                                    [key] => _has_landline
+                                    [value] => false
+                                )
+
+                        )
+
+                    [14] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132971
+                                    [key] => _last_provider
+                                    [value] => I don’t know who my provider is
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132971
+                                    [key] => _last_provider
+                                    [value] => I don’t know who my provider is
+                                )
+
+                        )
+
+                    [15] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132972
+                                    [key] => _order_comments
+                                    [value] => 
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132972
+                                    [key] => _order_comments
+                                    [value] => 
+                                )
+
+                        )
+
+                    [16] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 132981
+                                    [key] => _subscription_renewal
+                                    [value] => 8727
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 132981
+                                    [key] => _subscription_renewal
+                                    [value] => 8727
+                                )
+
+                        )
+
+                    [17] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133557
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133557
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+02-25-2020 @ 18:05:28 - Array
+(
+    [current_user->ID] => 87
+    [BillingId] => 001582607065-87
+)
+
+02-25-2020 @ 19:15:57 - Array
+(
+    [return url] => https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+)
+
+02-25-2020 @ 19:15:57 - ========= initiating transaction request
+02-25-2020 @ 19:15:57 - test or live account, invoice ref: hotshot.co.nz - Order # 19186, transaction: ID5e54bb9d6517e-19186, amount: 69.90, billingID: 001582611357-252
+02-25-2020 @ 19:15:57 - success URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+02-25-2020 @ 19:15:57 - failure URL: https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/
+02-25-2020 @ 19:15:57 - Array
+(
+    [access_userid] => HotShotBroadbandPx
+    [access_key] => d6c058c87cc26ea56a481537c248cdea9a9ce41293c144dd666c18abd6ab2917
+    [access_url] => https://sec.windcave.com/pxaccess/pxpay.aspx
+)
+
+02-25-2020 @ 19:15:57 - https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BCBF564101CAC9CC15CEFC16EFB5A7EC89346696F4C30318EB92D2E9A7B15F23D
+02-25-2020 @ 19:15:57 - Array
+(
+    [dps url] => https://sec.windcave.com/pxmi3/EF4054F622D6C4C1BCBF564101CAC9CC15CEFC16EFB5A7EC89346696F4C30318EB92D2E9A7B15F23D
+    [ajax img_loader] => https://www.hotshot.nz/wp-content/plugins/woocommerce-gateway-payment-express-hybrid/images/ajax-loader.gif
+)
+
+02-25-2020 @ 19:16:18 - ====== callback function has been accessed
+02-25-2020 @ 19:16:18 - Array
+(
+    [enc_hex] => 00001101002824130b84c34aa29e1a0a
+)
+
+02-25-2020 @ 19:16:19 - Array
+(
+    [resultReq->result] => 00001101002824130b84c34aa29e1a0a
+    [enc_hex] => 00001101002824130b84c34aa29e1a0a
+)
+
+02-25-2020 @ 19:16:19 - ========= requesting transaction result
+02-25-2020 @ 19:16:19 - Array
+(
+    [response] => DpsPxPayResultResponse Object
+        (
+            [isValid] => 1
+            [success] => 
+            [amount] => 69.9
+            [authCode] => 
+            [cardHoldersName] => User Cancelled
+            [cardName] => 
+            [cardNumber] => 000000......0000
+            [cardExpiryMonth] => 02
+            [cardExpiryYear] => 20
+            [txnRef] => 0000000b64f01262
+            [statusText] => DECLINED
+            [recurringID] => 
+            [currencySettlement] => NZD
+            [currencyInput] => NZD
+            [option1] => Order number : 19186
+            [option2] => Hayley Baker
+            [option3] => heyleebeez1@hotmail.co.nz
+            [txnType] => Purchase
+            [invoiceReference] => hotshot.co.nz - Order # 19186
+            [clientIP] => 122.56.203.23
+            [transactionNumber] => ID5e54bb9d6517e-
+            [emailAddress] => heyleebeez1@hotmail.co.nz
+            [billingID] => 001582611357-252
+            [txnMac] => 
+            [cardNumber2] => 
+            [cvc2ResultCode] => 
+        )
+
+    [orderId] => Array
+        (
+            [0] => Order number 
+            [1] =>  19186
+        )
+
+    [order] => WC_Order Object
+        (
+            [status_transition:protected] => 
+            [data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => pending
+                    [currency] => NZD
+                    [version] => 3.6.4
+                    [prices_include_tax] => 
+                    [date_created] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-25 19:15:45.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [date_modified] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-25 19:15:45.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [discount_total] => 29.5
+                    [discount_tax] => 0
+                    [shipping_total] => 0.00
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 69.90
+                    [total_tax] => 0
+                    [customer_id] => 252
+                    [order_key] => wc_order_fscT8RpGfwTFc
+                    [billing] => Array
+                        (
+                            [first_name] => Hayley
+                            [last_name] => Baker
+                            [company] => 
+                            [address_1] => 47A Nixon Street
+                            [address_2] => Hamilton East
+                            [city] => Hamilton
+                            [state] => 
+                            [postcode] => 3216
+                            [country] => NZ
+                            [email] => heyleebeez1@hotmail.co.nz
+                            [phone] => 0284298189
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => payment_express_hybrid
+                    [payment_method_title] => Payment Express
+                    [transaction_id] => 
+                    [customer_ip_address] => 122.56.203.23
+                    [customer_user_agent] => Mozilla/5.0 (Linux; Android 8.1.0; 5059T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.99 Mobile Safari/537.36
+                    [created_via] => checkout
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 1c648ca26f6ef1dab8f5afccfe8ffca4
+                )
+
+            [items:protected] => Array
+                (
+                )
+
+            [items_to_delete:protected] => Array
+                (
+                )
+
+            [cache_group:protected] => orders
+            [data_store_name:protected] => order
+            [object_type:protected] => order
+            [id:protected] => 19186
+            [changes:protected] => Array
+                (
+                )
+
+            [object_read:protected] => 1
+            [extra_data:protected] => Array
+                (
+                )
+
+            [default_data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => 
+                    [currency] => 
+                    [version] => 
+                    [prices_include_tax] => 
+                    [date_created] => 
+                    [date_modified] => 
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [customer_id] => 0
+                    [order_key] => 
+                    [billing] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                            [email] => 
+                            [phone] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => 
+                    [payment_method_title] => 
+                    [transaction_id] => 
+                    [customer_ip_address] => 
+                    [customer_user_agent] => 
+                    [created_via] => 
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 
+                )
+
+            [data_store:protected] => WC_Data_Store Object
+                (
+                    [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
+                        (
+                            [internal_meta_keys:protected] => Array
+                                (
+                                    [0] => _customer_user
+                                    [1] => _order_key
+                                    [2] => _order_currency
+                                    [3] => _billing_first_name
+                                    [4] => _billing_last_name
+                                    [5] => _billing_company
+                                    [6] => _billing_address_1
+                                    [7] => _billing_address_2
+                                    [8] => _billing_city
+                                    [9] => _billing_state
+                                    [10] => _billing_postcode
+                                    [11] => _billing_country
+                                    [12] => _billing_email
+                                    [13] => _billing_phone
+                                    [14] => _shipping_first_name
+                                    [15] => _shipping_last_name
+                                    [16] => _shipping_company
+                                    [17] => _shipping_address_1
+                                    [18] => _shipping_address_2
+                                    [19] => _shipping_city
+                                    [20] => _shipping_state
+                                    [21] => _shipping_postcode
+                                    [22] => _shipping_country
+                                    [23] => _completed_date
+                                    [24] => _paid_date
+                                    [25] => _edit_lock
+                                    [26] => _edit_last
+                                    [27] => _cart_discount
+                                    [28] => _cart_discount_tax
+                                    [29] => _order_shipping
+                                    [30] => _order_shipping_tax
+                                    [31] => _order_tax
+                                    [32] => _order_total
+                                    [33] => _payment_method
+                                    [34] => _payment_method_title
+                                    [35] => _transaction_id
+                                    [36] => _customer_ip_address
+                                    [37] => _customer_user_agent
+                                    [38] => _created_via
+                                    [39] => _order_version
+                                    [40] => _prices_include_tax
+                                    [41] => _date_completed
+                                    [42] => _date_paid
+                                    [43] => _payment_tokens
+                                    [44] => _billing_address_index
+                                    [45] => _shipping_address_index
+                                    [46] => _recorded_sales
+                                    [47] => _recorded_coupon_usage_counts
+                                    [48] => _download_permissions_granted
+                                    [49] => _order_stock_reduced
+                                )
+
+                            [meta_type:protected] => post
+                            [object_id_field_for_meta:protected] => 
+                            [must_exist_meta_keys:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [stores:WC_Data_Store:private] => Array
+                        (
+                            [coupon] => WC_Coupon_Data_Store_CPT
+                            [customer] => WC_Customer_Data_Store
+                            [customer-download] => WC_Customer_Download_Data_Store
+                            [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                            [customer-session] => WC_Customer_Data_Store_Session
+                            [order] => WC_Order_Data_Store_CPT
+                            [order-refund] => WC_Order_Refund_Data_Store_CPT
+                            [order-item] => WC_Order_Item_Data_Store
+                            [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                            [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                            [order-item-product] => WC_Order_Item_Product_Data_Store
+                            [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                            [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                            [payment-token] => WC_Payment_Token_Data_Store
+                            [product] => WC_Product_Data_Store_CPT
+                            [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                            [product-variable] => WC_Product_Variable_Data_Store_CPT
+                            [product-variation] => WC_Product_Variation_Data_Store_CPT
+                            [shipping-zone] => WC_Shipping_Zone_Data_Store
+                            [webhook] => WC_Webhook_Data_Store
+                            [subscription] => WCS_Subscription_Data_Store_CPT
+                            [product-variable-subscription] => WCS_Product_Variable_Data_Store_CPT
+                            [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
+                            [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
+                            [report-revenue-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-orders] => WC_Admin_Reports_Orders_Data_Store
+                            [report-orders-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-products] => WC_Admin_Reports_Products_Data_Store
+                            [report-variations] => WC_Admin_Reports_Variations_Data_Store
+                            [report-products-stats] => WC_Admin_Reports_Products_Stats_Data_Store
+                            [report-categories] => WC_Admin_Reports_Categories_Data_Store
+                            [report-taxes] => WC_Admin_Reports_Taxes_Data_Store
+                            [report-taxes-stats] => WC_Admin_Reports_Taxes_Stats_Data_Store
+                            [report-coupons] => WC_Admin_Reports_Coupons_Data_Store
+                            [report-coupons-stats] => WC_Admin_Reports_Coupons_Stats_Data_Store
+                            [report-downloads] => WC_Admin_Reports_Downloads_Data_Store
+                            [report-downloads-stats] => WC_Admin_Reports_Downloads_Stats_Data_Store
+                            [admin-note] => WC_Admin_Notes_Data_Store
+                            [report-customers] => WC_Admin_Reports_Customers_Data_Store
+                            [report-customers-stats] => WC_Admin_Reports_Customers_Stats_Data_Store
+                            [report-stock-stats] => WC_Admin_Reports_Stock_Stats_Data_Store
+                        )
+
+                    [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
+                    [object_type:WC_Data_Store:private] => order
+                )
+
+            [meta_data:protected] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133660
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133660
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133661
+                                    [key] => _subscription_switch_data
+                                    [value] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133661
+                                    [key] => _subscription_switch_data
+                                    [value] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+02-25-2020 @ 19:16:19 - failed; DECLINED
+02-25-2020 @ 19:16:19 - ====== callback function has been accessed
+02-25-2020 @ 19:16:19 - Array
+(
+    [enc_hex] => 00001101002824130b84c34aa29e1a0a
+)
+
+02-25-2020 @ 19:16:19 - Array
+(
+    [resultReq->result] => 00001101002824130b84c34aa29e1a0a
+    [enc_hex] => 00001101002824130b84c34aa29e1a0a
+)
+
+02-25-2020 @ 19:16:19 - ========= requesting transaction result
+02-25-2020 @ 19:16:19 - Array
+(
+    [response] => DpsPxPayResultResponse Object
+        (
+            [isValid] => 1
+            [success] => 
+            [amount] => 69.9
+            [authCode] => 
+            [cardHoldersName] => User Cancelled
+            [cardName] => 
+            [cardNumber] => 000000......0000
+            [cardExpiryMonth] => 02
+            [cardExpiryYear] => 20
+            [txnRef] => 0000000b64f01262
+            [statusText] => DECLINED
+            [recurringID] => 
+            [currencySettlement] => NZD
+            [currencyInput] => NZD
+            [option1] => Order number : 19186
+            [option2] => Hayley Baker
+            [option3] => heyleebeez1@hotmail.co.nz
+            [txnType] => Purchase
+            [invoiceReference] => hotshot.co.nz - Order # 19186
+            [clientIP] => 122.56.203.23
+            [transactionNumber] => ID5e54bb9d6517e-
+            [emailAddress] => heyleebeez1@hotmail.co.nz
+            [billingID] => 001582611357-252
+            [txnMac] => 
+            [cardNumber2] => 
+            [cvc2ResultCode] => 
+        )
+
+    [orderId] => Array
+        (
+            [0] => Order number 
+            [1] =>  19186
+        )
+
+    [order] => WC_Order Object
+        (
+            [status_transition:protected] => 
+            [data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => failed
+                    [currency] => NZD
+                    [version] => 3.6.4
+                    [prices_include_tax] => 
+                    [date_created] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-25 19:15:45.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [date_modified] => WC_DateTime Object
+                        (
+                            [utc_offset:protected] => 0
+                            [date] => 2020-02-25 19:16:19.000000
+                            [timezone_type] => 3
+                            [timezone] => Pacific/Auckland
+                        )
+
+                    [discount_total] => 29.5
+                    [discount_tax] => 0
+                    [shipping_total] => 0.00
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 69.90
+                    [total_tax] => 0
+                    [customer_id] => 252
+                    [order_key] => wc_order_fscT8RpGfwTFc
+                    [billing] => Array
+                        (
+                            [first_name] => Hayley
+                            [last_name] => Baker
+                            [company] => 
+                            [address_1] => 47A Nixon Street
+                            [address_2] => Hamilton East
+                            [city] => Hamilton
+                            [state] => 
+                            [postcode] => 3216
+                            [country] => NZ
+                            [email] => heyleebeez1@hotmail.co.nz
+                            [phone] => 0284298189
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => payment_express_hybrid
+                    [payment_method_title] => Payment Express
+                    [transaction_id] => 
+                    [customer_ip_address] => 122.56.203.23
+                    [customer_user_agent] => Mozilla/5.0 (Linux; Android 8.1.0; 5059T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.99 Mobile Safari/537.36
+                    [created_via] => checkout
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 1c648ca26f6ef1dab8f5afccfe8ffca4
+                )
+
+            [items:protected] => Array
+                (
+                )
+
+            [items_to_delete:protected] => Array
+                (
+                )
+
+            [cache_group:protected] => orders
+            [data_store_name:protected] => order
+            [object_type:protected] => order
+            [id:protected] => 19186
+            [changes:protected] => Array
+                (
+                )
+
+            [object_read:protected] => 1
+            [extra_data:protected] => Array
+                (
+                )
+
+            [default_data:protected] => Array
+                (
+                    [parent_id] => 0
+                    [status] => 
+                    [currency] => 
+                    [version] => 
+                    [prices_include_tax] => 
+                    [date_created] => 
+                    [date_modified] => 
+                    [discount_total] => 0
+                    [discount_tax] => 0
+                    [shipping_total] => 0
+                    [shipping_tax] => 0
+                    [cart_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [customer_id] => 0
+                    [order_key] => 
+                    [billing] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                            [email] => 
+                            [phone] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [first_name] => 
+                            [last_name] => 
+                            [company] => 
+                            [address_1] => 
+                            [address_2] => 
+                            [city] => 
+                            [state] => 
+                            [postcode] => 
+                            [country] => 
+                        )
+
+                    [payment_method] => 
+                    [payment_method_title] => 
+                    [transaction_id] => 
+                    [customer_ip_address] => 
+                    [customer_user_agent] => 
+                    [created_via] => 
+                    [customer_note] => 
+                    [date_completed] => 
+                    [date_paid] => 
+                    [cart_hash] => 
+                )
+
+            [data_store:protected] => WC_Data_Store Object
+                (
+                    [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
+                        (
+                            [internal_meta_keys:protected] => Array
+                                (
+                                    [0] => _parent_id
+                                    [1] => _status
+                                    [2] => _currency
+                                    [3] => _version
+                                    [4] => _prices_include_tax
+                                    [5] => _date_created
+                                    [6] => _date_modified
+                                    [7] => _discount_total
+                                    [8] => _discount_tax
+                                    [9] => _shipping_total
+                                    [10] => _shipping_tax
+                                    [11] => _cart_tax
+                                    [12] => _total
+                                    [13] => _total_tax
+                                    [14] => _customer_id
+                                    [15] => _order_key
+                                    [16] => _billing
+                                    [17] => _shipping
+                                    [18] => _payment_method
+                                    [19] => _payment_method_title
+                                    [20] => _transaction_id
+                                    [21] => _customer_ip_address
+                                    [22] => _customer_user_agent
+                                    [23] => _created_via
+                                    [24] => _customer_note
+                                    [25] => _date_completed
+                                    [26] => _date_paid
+                                    [27] => _cart_hash
+                                    [28] => _customer_user
+                                    [29] => _order_key
+                                    [30] => _order_currency
+                                    [31] => _billing_first_name
+                                    [32] => _billing_last_name
+                                    [33] => _billing_company
+                                    [34] => _billing_address_1
+                                    [35] => _billing_address_2
+                                    [36] => _billing_city
+                                    [37] => _billing_state
+                                    [38] => _billing_postcode
+                                    [39] => _billing_country
+                                    [40] => _billing_email
+                                    [41] => _billing_phone
+                                    [42] => _shipping_first_name
+                                    [43] => _shipping_last_name
+                                    [44] => _shipping_company
+                                    [45] => _shipping_address_1
+                                    [46] => _shipping_address_2
+                                    [47] => _shipping_city
+                                    [48] => _shipping_state
+                                    [49] => _shipping_postcode
+                                    [50] => _shipping_country
+                                    [51] => _completed_date
+                                    [52] => _paid_date
+                                    [53] => _edit_lock
+                                    [54] => _edit_last
+                                    [55] => _cart_discount
+                                    [56] => _cart_discount_tax
+                                    [57] => _order_shipping
+                                    [58] => _order_shipping_tax
+                                    [59] => _order_tax
+                                    [60] => _order_total
+                                    [61] => _payment_method
+                                    [62] => _payment_method_title
+                                    [63] => _transaction_id
+                                    [64] => _customer_ip_address
+                                    [65] => _customer_user_agent
+                                    [66] => _created_via
+                                    [67] => _order_version
+                                    [68] => _prices_include_tax
+                                    [69] => _date_completed
+                                    [70] => _date_paid
+                                    [71] => _payment_tokens
+                                    [72] => _billing_address_index
+                                    [73] => _shipping_address_index
+                                    [74] => _recorded_sales
+                                    [75] => _recorded_coupon_usage_counts
+                                    [76] => _download_permissions_granted
+                                    [77] => _order_stock_reduced
+                                )
+
+                            [meta_type:protected] => post
+                            [object_id_field_for_meta:protected] => 
+                            [must_exist_meta_keys:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [stores:WC_Data_Store:private] => Array
+                        (
+                            [coupon] => WC_Coupon_Data_Store_CPT
+                            [customer] => WC_Customer_Data_Store
+                            [customer-download] => WC_Customer_Download_Data_Store
+                            [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                            [customer-session] => WC_Customer_Data_Store_Session
+                            [order] => WC_Order_Data_Store_CPT
+                            [order-refund] => WC_Order_Refund_Data_Store_CPT
+                            [order-item] => WC_Order_Item_Data_Store
+                            [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                            [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                            [order-item-product] => WC_Order_Item_Product_Data_Store
+                            [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                            [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                            [payment-token] => WC_Payment_Token_Data_Store
+                            [product] => WC_Product_Data_Store_CPT
+                            [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                            [product-variable] => WC_Product_Variable_Data_Store_CPT
+                            [product-variation] => WC_Product_Variation_Data_Store_CPT
+                            [shipping-zone] => WC_Shipping_Zone_Data_Store
+                            [webhook] => WC_Webhook_Data_Store
+                            [subscription] => WCS_Subscription_Data_Store_CPT
+                            [product-variable-subscription] => WCS_Product_Variable_Data_Store_CPT
+                            [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
+                            [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
+                            [report-revenue-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-orders] => WC_Admin_Reports_Orders_Data_Store
+                            [report-orders-stats] => WC_Admin_Reports_Orders_Stats_Data_Store
+                            [report-products] => WC_Admin_Reports_Products_Data_Store
+                            [report-variations] => WC_Admin_Reports_Variations_Data_Store
+                            [report-products-stats] => WC_Admin_Reports_Products_Stats_Data_Store
+                            [report-categories] => WC_Admin_Reports_Categories_Data_Store
+                            [report-taxes] => WC_Admin_Reports_Taxes_Data_Store
+                            [report-taxes-stats] => WC_Admin_Reports_Taxes_Stats_Data_Store
+                            [report-coupons] => WC_Admin_Reports_Coupons_Data_Store
+                            [report-coupons-stats] => WC_Admin_Reports_Coupons_Stats_Data_Store
+                            [report-downloads] => WC_Admin_Reports_Downloads_Data_Store
+                            [report-downloads-stats] => WC_Admin_Reports_Downloads_Stats_Data_Store
+                            [admin-note] => WC_Admin_Notes_Data_Store
+                            [report-customers] => WC_Admin_Reports_Customers_Data_Store
+                            [report-customers-stats] => WC_Admin_Reports_Customers_Stats_Data_Store
+                            [report-stock-stats] => WC_Admin_Reports_Stock_Stats_Data_Store
+                        )
+
+                    [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
+                    [object_type:WC_Data_Store:private] => order
+                )
+
+            [meta_data:protected] => Array
+                (
+                    [0] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133660
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133660
+                                    [key] => is_vat_exempt
+                                    [value] => no
+                                )
+
+                        )
+
+                    [1] => WC_Meta_Data Object
+                        (
+                            [current_data:protected] => Array
+                                (
+                                    [id] => 133661
+                                    [key] => _subscription_switch_data
+                                    [value] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [data:protected] => Array
+                                (
+                                    [id] => 133661
+                                    [key] => _subscription_switch_data
+                                    [value] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+02-25-2020 @ 19:16:19 - failed; DECLINED

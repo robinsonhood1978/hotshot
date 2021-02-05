@@ -1,0 +1,16 @@
+2020-10-27T05:56:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /www/wwwroot/www.hotshot.nz/wp-includes/option.php on line 343
+
+2020-10-27T08:12:26+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_item_data_hash() in /www/wwwroot/www.hotshot.nz/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php:132
+Stack trace:
+#0 /www/wwwroot/www.hotshot.nz/wp-includes/class-wp-hook.php(286): WC_Cart_Session->get_cart_from_session('')
+#1 /www/wwwroot/www.hotshot.nz/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /www/wwwroot/www.hotshot.nz/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /www/wwwroot/www.hotshot.nz/wp-settings.php(546): do_action('wp_loaded')
+#4 /www/wwwroot/www.hotshot.nz/wp-config.php(94): require_once('/www/wwwroot/ww...')
+#5 /www/wwwroot/www.hotshot.nz/wp-load.php(37): require_once('/www/wwwroot/ww...')
+#6 /www/wwwroot/www.hotshot.nz/wp-admin/admin.php(34): require_once('/www/wwwroot/ww...')
+#7 /www/wwwroot/www.hotshot.nz/wp-admin/user-edit.php(10): require_once('/www/wwwroot/ww...')
+#8 /www/wwwroot/www.hotshot.nz/wp-admin/profile.php(18): require_once('/www/wwwroot/ww...')
+#9 {main}
+  thrown in /www/wwwroot/www.hotshot.nz/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php on line 132
+

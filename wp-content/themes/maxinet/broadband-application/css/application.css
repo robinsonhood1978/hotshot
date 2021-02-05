@@ -1,0 +1,298 @@
+form#application .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.row.is-available {
+    display: none;
+}
+.address-search-title {
+    border-bottom: 2px solid #eee;
+}
+.section-heading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.heading-description {
+    color: #181818;
+    font-weight: bold;
+}
+.heading-number {
+    display: flex;
+    width: 37px;
+    height: 37px;
+    margin-right: 15px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #eb5c24;
+    color: #fff;
+}
+.heading-number > span {
+    flex-grow: 1;
+}
+.heading-title {
+    vertical-align: middle;
+    display: inline-block;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.address-search-section-title,
+.speed-choose-section-title,
+.summary-heading-title {
+    color: #eb5c24 !important;
+}
+.address-search-messages {
+    display: none;
+    border: 1px solid;
+    padding: 15px;
+}
+.address-search-messages-wrapper {
+    display: block;
+    margin-bottom: 15px;
+}
+.address-search-clear,
+.address-search-title {
+    margin-bottom: 0;
+}
+.address-search-messages-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.address-search-messages-text {
+    font-weight: bold;
+    color: #181818;
+    font-size: 1.25em;
+}
+.address-search-icon {
+    margin: 0 15px 0 0;
+}
+@media (min-width: 768px) {
+    .address-search-messages-wrapper,
+    .plan-speeds{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .address-search-clear {
+        margin-left: 15px;
+    }
+    .address-search-messages-show-address {
+        margin-bottom: 0;
+    }
+}
+.address-loading {
+    max-width: 37.6px;
+    padding-right: 5px;
+}
+.address-loading-img {
+    visibility: hidden;
+}
+.radio-label {
+    margin: 0 0 15px;
+    padding-top: 2px;
+    padding-left: 36px !important;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: #eb5c24;
+    cursor: pointer;
+}
+.radio-label:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0 !important;
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 15px;
+    content: "";
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #181818 !important;
+}
+input[type="radio"]:checked + .radio-label:after {
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 17px;
+    height: 17px;
+    content: "";
+    border-radius: 50%;
+    background-color: #eb5c24;
+    background-clip: padding-box;
+}
+.plan-speed-tip, .plan-up, .plan-down {
+    color: #eb5c24 !important;
+}
+.radio-button-group {
+    list-style: none;
+}
+.plan-speed-download,
+.plan-speed-upload {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.plan-speed-text {
+    margin: 0 15px 0 5px;
+    font-weight: 600;
+}
+.plan-speeds {
+    margin-left: 35px;
+}
+.speed-price, .router-price {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #eb5c24;
+}
+.speed-price-suffix {
+    text-align: center;
+    line-height: 16px;
+    color: #eb5c24;
+}
+.radio-description {
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+.speed-section, .router-section, .choose-router-section {
+    padding: 15px 30px;
+}
+@media (max-width: 767px) {
+    .speed-section, .router-section, .choose-router-section {
+        padding: 15px 15px;
+    }
+}
+.speed-section {
+    border-bottom: 2px solid #eee;
+}
+.tooltip-link {
+    cursor: pointer;
+}
+.summary-container {
+    padding: 1px 20px 16px;
+    background-color: #fff;
+    border: 2px solid #e4e4e4;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2);
+    position: sticky;
+    position: -webkit-sticky;
+}
+.sub-section-title {
+    margin: 15px 0 2px;
+    font-weight: 500;
+    letter-spacing: normal;
+    color: #545454;
+}
+.sub-section-container:not(:last-of-type) {
+    margin-bottom: 38px;
+}
+.sub-section {
+    display: flex;
+    margin: 2.5px 0;
+    padding: 2.5px 0;
+}
+.sub-section-left-content {
+    flex: 90%;
+}
+.sub-section-right-content {
+    flex: 10%;
+    margin-left: 10px;
+    text-align: right;
+    align-self: center;
+}
+.plan-summary-text {
+    margin: 0;
+}
+.stick {
+    transition: margin-top 0.5s;
+}
+.choose-speed {
+    margin-bottom: 20px;
+}
+.router-choose-title {
+    margin: 0 0 15px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: #eb5c24 !important;
+}
+input[name="is-byo-router"] + label:not(:last-child) {
+    margin-right: 15px;
+}
+.choose-router-section:nth-of-type(2n-1) {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+.router-description {
+    word-break: break-word;
+}
+.router-details-button {
+    width: fit-content;
+}
+.is-router, .show-router-fee {
+    display: none;
+    align-items: center;
+}
+@media (max-width: 787px) {
+    .stick {
+        margin-top: 0 !important;
+    }
+}
+input[type="checkbox"] + label.checkbox-label {
+    padding-left: 40px;
+}
+input[type="checkbox"] + label.checkbox-label:before {
+    top: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+}
+.plan-summary-router-quantity-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.router-quantity-selection-minus, .router-quantity-selection-plus {
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.router-quantity-selection-minus i, .router-quantity-selection-plus i {
+    color: #eb5c24;
+}
+.router-quantity-selection-minus:hover i, .router-quantity-selection-plus:hover i {
+    color: #e7211a;
+}
+input.router-quantity {
+    height: unset;
+    padding: 0 !important;
+    border-radius: 0;
+    background: transparent !important;
+    text-align: center;
+    border: none;
+    color: #181818 !important;
+    font-weight: bold;
+    width: 2.5rem;
+}

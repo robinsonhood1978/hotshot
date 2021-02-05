@@ -1,0 +1,105 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+
+.esg-grid i[class*="eg-icon-"] {
+	color: #fff;
+	-webkit-transition: color .5s ease;
+	    -ms-transition: color .5s ease;
+	        transition: color .5s ease;
+}
+.esg-navigationbutton i[class*="eg-icon-"] {
+	color: #fff;
+}
+.esg-navigationbutton:hover i[class*="eg-icon-"] {
+	color: #fff;
+}
+
+.esg-grid .eg-custom-skin-1-element-0 i.eg-icon-eye:before{
+	content: '\e966';
+	font-family: 'fontello';
+}
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+
+.esgbox-overlay {
+	z-index: 28010 !important;
+}
+.esgbox-opened {
+	z-index: 28030 !important;
+}
+
+.eg-custom-skin-2-element-1 i.eg-icon-forward {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border: 2px solid transparent;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+			border-radius: 50%;
+
+}
+
+.eg-custom-skin-2-element-1 i.eg-icon-forward:before{
+	content: '\e965';
+	font-family: 'fontello';
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	line-height: 38px;
+	position: absolute;
+	top: auto;
+	bottom: auto;
+	left: -16px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.eg-custom-skin-2-element-1:hover i.eg-icon-forward:before {
+	left: -12px;
+}
+
+.eg-custom-skin-2-element-15 {
+	max-width: 60% !important;
+}
+
+.custom-nav-skin .esg-filters{
+	margin-top: 5em !important;
+}
+
+.custom-nav-skin .esg-grid i[class*="eg-icon-"] {
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+
+.custom-nav-skin .esg-navigationbutton{
+	font-size: 1.750em;
+}
+
+.custom-nav-skin .eg-icon-left-open:before {
+	font-family: 'fontello';
+	content: '\e963';
+	width: 1.4em;
+}
+
+.custom-nav-skin .eg-icon-right-open:before {
+	font-family: 'fontello';
+	content: '\e965';
+	width: 1.4em;
+}
+
+.eg-custom-skin-2-nostyle-element-24{
+	text-align: left !important;
+	margin: 0 0 10px 30px !important;
+	line-height: 1em;
+}
+

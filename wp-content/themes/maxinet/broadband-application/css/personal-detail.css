@@ -1,0 +1,130 @@
+form#personal-detail .row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.section-heading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.heading-title {
+    vertical-align: middle;
+    display: inline-block;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #eb5c24 !important;
+}
+.heading-description {
+    color: #181818;
+    font-weight: bold;
+}
+.input-label {
+    color: #181818;
+}
+.radio-label {
+    margin: 0 0 15px;
+    padding-top: 2px;
+    padding-left: 36px !important;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: #eb5c24;
+    cursor: pointer;
+}
+.radio-label:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0 !important;
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 15px;
+    content: "";
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #181818 !important;
+}
+input[type="radio"]:checked + .radio-label:after {
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 17px;
+    height: 17px;
+    content: "";
+    border-radius: 50%;
+    background-color: #eb5c24;
+    background-clip: padding-box;
+}
+table th {
+    background-color: #f0f0f0 !important;
+    color: #181818 !important;
+}
+table td, table th {
+    padding: 0.5rem;
+}
+.datepicker table tr td, .datepicker table tr th {
+    border-radius: 0 !important;
+}
+table > tbody > tr > td {
+    background-color: #ffffff !important;
+}
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover {
+    color: #ccc !important;
+}
+.datepicker table tr td.active {
+    background-color: #eb5c24 !important;
+    color: #ffffff !important;
+}
+.datepicker table tr td.day:hover {
+    background-color: #e7211a !important;
+    color: #ffffff !important;
+}
+input[type="checkbox"] + label.checkbox-label {
+    padding-left: 40px;
+    width: 100%;
+}
+input[type="checkbox"] + label.checkbox-label:before {
+    top: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+}
+.delivery-detail-wrapper {
+    display: none;
+}
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(16, 16, 16, 0.5);
+    z-index: 9999999999;
+    display: none;
+}
+.loading img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+}
+.has-error .form-control {
+    border-color: #e7211a !important;
+}
+small.help-block {
+    color: #e7211a !important;
+}

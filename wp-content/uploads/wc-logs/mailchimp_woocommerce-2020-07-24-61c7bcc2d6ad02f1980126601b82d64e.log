@@ -1,0 +1,85 @@
+2020-07-24T02:10:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 520
+2020-07-24T02:10:38+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 99258
+2020-07-24T02:11:24+00:00 NOTICE member.sync :: Subscribed Member mikaelatahau@gmail.com :: Array
+(
+    [status_if_new] => 1
+    [merge_fields] => Array
+        (
+            [FNAME] => Mikaela
+            [LNAME] => Tahau
+        )
+
+)
+
+2020-07-24T02:12:08+00:00 NOTICE order_sumbit :: #99258 has a financial status of pending and was skipped.
+2020-07-24T02:12:28+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 99258
+2020-07-24T02:12:30+00:00 NOTICE debug :: Order ID 99258 was pending and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-07-24T02:14:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 1e1c85048fd0292c6c7744e05141fe6f
+2020-07-24T02:14:28+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 520
+2020-07-24T02:15:07+00:00 NOTICE system.debug :: order 99258 is in failed status, and is being skipped for now.
+2020-07-24T02:15:08+00:00 NOTICE abandoned_cart.success :: email: mikaelatahau@gmail.com :: checkout_url: https://www.hotshot.nz/checkout/?mc_cart_id=1e1c85048fd0292c6c7744e05141fe6f
+2020-07-24T02:15:09+00:00 NOTICE cart.member.updated :: Updated mikaelatahau@gmail.com language to en
+2020-07-24T02:15:10+00:00 NOTICE member.sync :: Updated Member mikaelatahau@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Mikaela
+            [LNAME] => Tahau
+        )
+
+)
+
+2020-07-24T02:19:56+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 1e1c85048fd0292c6c7744e05141fe6f
+2020-07-24T02:20:02+00:00 NOTICE abandoned_cart.success :: email: mikaelatahau@gmail.com :: checkout_url: https://www.hotshot.nz/checkout/?mc_cart_id=1e1c85048fd0292c6c7744e05141fe6f
+2020-07-24T02:21:51+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 1e1c85048fd0292c6c7744e05141fe6f
+2020-07-24T02:21:57+00:00 NOTICE abandoned_cart.success :: email: mikaelatahau@gmail.com :: checkout_url: https://www.hotshot.nz/checkout/?mc_cart_id=1e1c85048fd0292c6c7744e05141fe6f
+2020-07-24T02:22:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 520
+2020-07-24T02:22:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 99306
+2020-07-24T02:22:58+00:00 NOTICE member.sync :: Updated Member mikaelatahau@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Mikaela
+            [LNAME] => Tahau
+        )
+
+)
+
+2020-07-24T02:23:33+00:00 NOTICE debug :: Order ID 99306 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/?result=00001101290685080bbafa3ebeb446b0&userid=HotShotBroadbandPx
+        )
+
+)
+
+2020-07-24T02:25:54+00:00 NOTICE order.member.updated :: Updated mikaelatahau@gmail.com language to en
+2020-07-24T02:25:54+00:00 NOTICE order_submit.success :: addStoreOrder :: #99306 :: email: mikaelatahau@gmail.com :: landing site https://www.hotshot.nz/wc-api/WC_Gateway_Payment_Express_Hybrid/?result=00001101290685080bbafa3ebeb446b0&userid=HotShotBroadbandPx :: abandoned cart deleted [1e1c85048fd0292c6c7744e05141fe6f]
+2020-07-24T23:43:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 100295
+2020-07-24T23:44:04+00:00 NOTICE debug :: Order ID 100295 was processing and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-07-24T23:44:04+00:00 NOTICE debug :: Order ID 100295 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => 
+        )
+
+)
+
+2020-07-24T23:45:33+00:00 NOTICE order.member.updated :: Updated kiwidave65@hotmail.com language to en
+2020-07-24T23:45:33+00:00 NOTICE order_submit.success :: addStoreOrder :: #100295 :: email: kiwidave65@hotmail.com

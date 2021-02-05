@@ -1,0 +1,32 @@
+/* Theme-specific rules for the WP Editor */
+
+.trx_addons_dropcap {
+    font-size: 3.438em;  
+    font-weight: 700;
+    width: 1.65em;
+    height: 1.65em;
+    line-height: 1.65em;
+    margin-right: 0.3em;
+}
+
+ul.trx_addons_list_dot{
+    padding-left: 1.5em;
+}
+
+ul[class*="trx_addons_list"] > li {
+    line-height: 2.125em;
+}
+
+ul[class*="trx_addons_list_dot"] > li:before {
+    line-height: 2.175em;
+}
+
+ul.trx_addons_list_success li{
+    padding-left: 0.5em;
+}
+
+ul[class*="trx_addons_list_success"] > li:before{
+    content: '\e95f';
+    font-family: 'fontello';
+}
+

@@ -1,0 +1,34 @@
+2020-06-13T09:08:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 447
+2020-06-13T09:08:23+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 40452
+2020-06-13T09:08:29+00:00 NOTICE member.sync :: Subscribed Member larrisiahuriwai@gmail.com :: Array
+(
+    [status_if_new] => 1
+    [merge_fields] => Array
+        (
+            [FNAME] => Larrisia
+            [LNAME] => Huriwai
+        )
+
+)
+
+2020-06-13T09:10:02+00:00 NOTICE order_sumbit :: #40452 has a financial status of pending and was skipped.
+2020-06-13T22:54:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 41132
+2020-06-13T22:54:09+00:00 NOTICE debug :: Order ID 41132 was processing and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-06-13T22:54:09+00:00 NOTICE debug :: Order ID 41132 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => 
+        )
+
+)
+
+2020-06-13T22:56:14+00:00 NOTICE order.member.updated :: Updated amizzle34@gmail.com language to en
+2020-06-13T22:56:14+00:00 NOTICE order_submit.success :: addStoreOrder :: #41132 :: email: amizzle34@gmail.com
