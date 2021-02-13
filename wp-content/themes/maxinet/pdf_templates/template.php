@@ -47,7 +47,7 @@
   <table table width="100%">
 	<tr>
     	<td valign="top" width="50%" id="logo">[[PDFLOGO]]</td>
-    	<td valign="top" width="50%" id="company-info">[[PDFCOMPANYNAME]]<br />[[PDFCOMPANYDETAILS]]<br /></td>
+    	<td valign="top" width="50%" id="company-info">[[PDFCOMPANYNAME]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;www.hotshot.nz<br />[[PDFCOMPANYDETAILS]]<br /></td>
 	</tr>
   </table>
   <table table width="100%">

@@ -101,7 +101,7 @@ if ( $is_login ) {
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="last-provider" class="input-label">Who was your last provider?</label>
+                            <label for="last-provider" class="input-label">Who is your current provider?</label>
                             <select class="form-control" id="last-provider" name="last-provider"></select>
                         </div>
                     </div>

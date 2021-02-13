@@ -889,7 +889,7 @@
 				else :
 					$logo = '<h1>' . get_bloginfo('name') . '</h1>';	
 				endif;
-		
+
 				/**
 				 * Look for the Sequential Order Numbers Pro / Sequential Order Numbers order number and use it if it's there
 				 */
@@ -916,8 +916,14 @@
                     $renewal_orders = $subscription->get_related_orders( 'all', 'renewal'  );
 
                 }
+
                 $parent_order = new WC_Order( $parent_order_id );
-                $completed_date_of_parent_order = $parent_order->get_date_completed()->date( 'Y-m-d' );
+
+                $completed_date_of_parent_order = $parent_order->get_date_completed();
+
+                if($completed_date_of_parent_order)
+                    $completed_date_of_parent_order = $completed_date_of_parent_order->date( 'Y-m-d' );
+
                 $parent_order_total = $parent_order->get_total();
                 $parent_items_count = $parent_order->get_item_count();
 
@@ -958,6 +964,10 @@
 
 
                 $billing_period = $start_date." to ".$end_date;
+                if($output_subscription_no==0){
+                    $output_subscription_no='';
+                    $billing_period = '';
+                }
                 //$billing_period = $parent_items_count ;
                 //$billing_period = $parent_order_id.",".$completed_date_of_parent_order.",".$parent_order_total.",".$parent_items_count;
 

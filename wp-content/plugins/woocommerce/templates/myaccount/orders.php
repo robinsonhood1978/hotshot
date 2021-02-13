@@ -47,11 +47,6 @@ do_action( 'woocommerce_before_account_orders', $has_orders ); ?>
 							<?php if ( has_action( 'woocommerce_my_account_my_orders_column_' . $column_id ) ) : ?>
 								<?php do_action( 'woocommerce_my_account_my_orders_column_' . $column_id, $order ); ?>
 
-                            <?php elseif ( 'order-number' === $column_id ) : ?>
-                                <a href="<?php echo esc_url( $order->get_view_order_url() ); ?>">
-                                    <?php echo _x( '#', 'hash before order number', 'woocommerce' ) . $order->get_order_number(); ?>
-                                </a>
-
 
 
 							<?php elseif ( 'order-date' === $column_id ) : ?>
@@ -72,8 +67,8 @@ do_action( 'woocommerce_before_account_orders', $has_orders ); ?>
 
 								if ( ! empty( $actions ) ) {
 									foreach ( $actions as $key => $action ) { // phpcs:ignore WordPress.WP.GlobalVariablesOverride.OverrideProhibited
-                                        if ($action['name'] === 'Invoice') {
-                                            echo '<a href="' . esc_url($action['url']) . '" class="woocommerce-button button ' . sanitize_html_class($key) . '">' . esc_html($action['name']) . '</a>';
+                                        if ($action['name'] === 'PDF Invoice') {
+                                            echo '<a href="' . esc_url($action['url']) . '" class="woocommerce-button button ' . sanitize_html_class($key) . '">' . esc_html('Invoice') . '</a>';
                                         }
 									}
 								}

@@ -153,9 +153,9 @@ if ( is_user_logged_in() ) {
                     <div class="router-section">
                         <h5 class="router-choose-title">Do you want to buy a router from us?</h5>
                         <input class="form-control" type="radio" id="is-byo-router-no" name="is-byo-router" value="false" checked="checked" />
-                        <label for="is-byo-router-no" class="radio-label">No</label>
+                        <label for="is-byo-router-no" class="radio-label" style="font-size:15px;font-weight:500;color:#181818;">No, I want to use my own router.</label>
                         <input class="form-control" type="radio" id="is-byo-router-yes" name="is-byo-router" value="true" />
-                        <label for="is-byo-router-yes" class="radio-label">Yes</label>
+                        <label for="is-byo-router-yes" class="radio-label" style="font-size:15px;font-weight:500;color:#181818;">Yes, I want to purchase from Hotshot.</label>
                     </div>
                     <div id="not_buy_router">
                         Some modem setting changes needed. Not sure if your modem is compatible?
